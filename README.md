@@ -25,3 +25,6 @@ composer update takumi9942/flarum-ext-japanese
 ```
 composer remove takumi9942/flarum-ext-japanese
 ```
+
+## 対応する拡張機能 | Support extensions
+- [FriendsOfFlarum/user-directory](https://github.com/FriendsOfFlarum/user-directory)

@@ -132,7 +132,7 @@ core:
     # These translations are used in the navigation bar.
     nav:
       appearance_button: 外観
-      appearance_text: "フォーラムの色やロゴなどの項目をカスタマイズします。"
+      appearance_text: "フォーラムの色やロゴなどをカスタマイズします。"
       basics_button: 基本
       basics_text: "タイトルや言語、その他の基本設定を変更します。"
       dashboard_button: ダッシュボード
