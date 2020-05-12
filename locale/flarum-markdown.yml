@@ -9,12 +9,12 @@ flarum-markdown:
 
     # These translations are used by the composer (emoji autocompletion function).
     composer:
-      bold_tooltip: Add bold text
-      code_tooltip: Insert code
-      header_tooltip: Add header text
-      image_tooltip: Add an image
-      italic_tooltip: Add italic text
-      link_tooltip: Add a link
-      ordered_list_tooltip: Add a numbered list
-      quote_tooltip: Insert a quote
-      unordered_list_tooltip: Add a bulleted list
+      bold_tooltip: 太字を挿入
+      code_tooltip: コードを挿入
+      header_tooltip: 見出しを挿入
+      image_tooltip: 画像を挿入
+      italic_tooltip: 斜体を挿入
+      link_tooltip: リンクを挿入
+      ordered_list_tooltip: 番号付きの段落を挿入
+      quote_tooltip: 引用を挿入
+      unordered_list_tooltip: 箇条書きの挿入
