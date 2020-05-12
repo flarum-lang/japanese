@@ -564,7 +564,7 @@ core:
     delete_forever: 完全に削除
     discussions: スレッド                     # Referenced by flarum-statistics.yml
     edit: 編集
-    email: メール
+    email: メールアドレス
     icon: アイコン
     icon_text: "<a>FontAwesome</a> のアイコンクラスの名前を入力してください。<code>fas fa-</code>といった接頭辞も<em>含めてください</em>。"
     load_more: 更に読み込む
