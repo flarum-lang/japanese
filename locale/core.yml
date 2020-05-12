@@ -11,7 +11,7 @@ core:
     add_extension:
       developer_text: "もしあなたが開発者であれば<a>ドキュメント</a>を読んでオリジナルの拡張機能を作成することができます。"
       install_text: "または、<a>Flarum コミュニティサイト</a>から拡張機能を探し、Composerを使用して手動でインストールできます。"
-      temporary_text: "近い将来、このダイアログからかんたんに拡張機能を導入できるようになります。"
+      temporary_text: "近い将来、このダイアログから簡単に拡張機能を導入できるようになります。"
       title: 拡張機能の追加
 
     # These translations are used in the Appearance page.
@@ -132,7 +132,7 @@ core:
     # These translations are used in the navigation bar.
     nav:
       appearance_button: 外観
-      appearance_text: "フォーラムの色やロゴ、その他の項目をカスタマイズします。"
+      appearance_text: "フォーラムの色やロゴなどの項目をカスタマイズします。"
       basics_button: 基本
       basics_text: "タイトルや言語、その他の基本設定を変更します。"
       dashboard_button: ダッシュボード
@@ -253,7 +253,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: It looks as though there are no discussions here.
+      empty_text: 一致するスレッドが見つかりません
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: 既読にする
       replied_text: "{username} が {ago} に返信しました"
@@ -402,7 +402,7 @@ core:
       avatar_upload_button: アップロード
       avatar_upload_tooltip: 新しいアバターのアップロード
       discussions_link: => core.ref.discussions
-      in_discussion_text: "In {discussion}"
+      in_discussion_text: "スレッド：{discussion}"
       joined_date_text: "{ago}に参加"
       online_text: オンライン
       posts_empty_text: 投稿はありません

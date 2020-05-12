@@ -29,8 +29,8 @@ flarum-mentions:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_mentioned_label: 誰かがあなたの投稿に返信しました
-      notify_user_mentioned_label: 誰かがあなたについての投稿を行いました
+      notify_post_mentioned_label: 誰かがあなたの投稿に返信した時
+      notify_user_mentioned_label: 誰かがあなたについての投稿をした時
 
     # These translations are used in the user profile page and profile popup.
     user:
