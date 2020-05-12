@@ -9,5 +9,5 @@ flarum-emoji:
 
     # These translations are used by the composer (emoji autocompletion function).
     composer:
-      emoji_tooltip: Insert emoji
-      type_to_search_text: Type to search for an emoji
+      emoji_tooltip: 絵文字の挿入
+      type_to_search_text: 絵文字を検索
