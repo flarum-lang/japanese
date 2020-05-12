@@ -1,18 +1,21 @@
 {
-    "name": "flarum/lang-english",
+    "name": "takumi9942/flarum-ext-japanese",
     "type": "flarum-extension",
-    "description": "English language pack.",
-    "keywords": ["locale"],
+    "description": "Japanese language pack.",
+    "keywords": ["locale", "japanese"],
     "license": "MIT",
     "require": {
         "flarum/core": "^0.1.0-beta.13"
     },
+    "authors": [
+        {
+            "name": "takumi9942",
+            "homepage": "https://github.com/takumi9942"
+        }
+    ],
     "extra": {
-        "branch-alias": {
-            "dev-master": "0.1.x-dev"
-        },
         "flarum-extension": {
-            "title": "English",
+            "title": "Japanese",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#00247d",
@@ -21,8 +24,8 @@
             }
         },
         "flarum-locale": {
-            "code": "en",
-            "title": "English"
+            "code": "ja",
+            "title": "Japanese"
         }
     }
 }
