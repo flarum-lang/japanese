@@ -30,3 +30,4 @@ composer remove takumi9942/flarum-ext-japanese
 - [FriendsOfFlarum/user-directory](https://github.com/FriendsOfFlarum/user-directory)
 - [michaelbelgium/flarum-discussion-views](https://github.com/MichaelBelgium/flarum-discussion-views)
 - [fof/best-answer](https://github.com/FriendsOfFlarum/best-answer)
+- [fof/polls](https://github.com/FriendsOfFlarum/polls)
