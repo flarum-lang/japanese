@@ -219,7 +219,7 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: 本文を記入...
+      body_placeholder: 本文を入力...
       discard_confirmation: "まだ投稿が完了していません。内容を破棄してもよろしいですか？"
       submit_button: スレッドを作成
       title: => core.ref.start_a_discussion
@@ -305,11 +305,11 @@ core:
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: 更新順
+      latest_button: 更新日時：新しい順
       newest_button: 作成日時：新しい順
       oldest_button: 作成日時：古い順
       relevance_button: 関連性順
-      top_button: 人気順
+      top_button: 投稿数：多い順
 
     # These translations are used in the Log In modal dialog.
     log_in:
@@ -320,7 +320,7 @@ core:
       sign_up_text: "アカウントを持っていませんか? <a>新規登録</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: ユーザー名もしくはメール
+      username_or_email_placeholder: ユーザー名もしくはメールアドレス
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -474,7 +474,7 @@ core:
       csrf_token_mismatch_return_link: 前のページに戻って再度お試しください
       invalid_confirmation_token: この確認用のリンクは使用済みか無効です。
       not_authenticated: このページにアクセスする権限がありません。ログイン後に再度お試しください。
-      not_found: 要求されたページが見つかりませんでした。The page you requested could not be found.
+      not_found: 要求されたページが見つかりませんでした。
       not_found_return_link: "{forum} へ戻る"
       permission_denied: このページにアクセスする権限がありません。
       unknown: このページの読込中にエラーが発生しました。
@@ -589,7 +589,7 @@ core:
     start_a_discussion: スレッドの作成
     username: ユーザー名
     users: ユーザー                                 # Referenced by flarum-statistics.yml
-    write_a_reply: 返信を記入...
+    write_a_reply: 返信を入力...
     you: あなた                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##

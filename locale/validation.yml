@@ -83,7 +83,7 @@ validation:
   required_without_all: ":attribute は :values が入力されていない場合は必須です"
   same: ":attribute は :other と同じ場合のみ有効です"
   size:
-    numeric: ":attribute は :size のみ有効です"
+    numeric: ":attribute は :size である必要があります"
     file: ":attribute は :size KBのみ有効です"
     string: ":attribute は :size 文字のみ有効です"
     array: ":attribute は :size 個のみ有効です"
