@@ -26,7 +26,7 @@ fof-byobu:
                 groups: 権限グループ
         modal:
             titles:
-                update_recipients: {title}の参加者を変更
+                update_recipients: "{title}の参加者を変更"
                 add_recipients: スレッドに参加者を追加
             help:
                 add_recipients: このスレッドはあなたがここで選択したユーザーにのみ表示されます。あなた以外の参加者が少なくとも1人必要です。
