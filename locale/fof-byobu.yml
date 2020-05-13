@@ -1,0 +1,82 @@
+fof-byobu:
+    forum:
+        badges:
+            is_private:
+                tooltip: プライベートスレッド
+        buttons:
+            add_recipients: 参加者
+            submit: OK
+            edit_recipients: 参加者の編集
+            send_pd: "{username} へメッセージを送信"
+            cancel: キャンセル
+            remove_from_discussion: このプライベートスレッドから退出
+            make_public: このスレッドを公開する
+        composer_private_discussion:
+            submit_button: プライベートスレッドを投稿
+            title_placeholder: プライベートスレッドのタイトル
+        labels:
+            recipients: "{count} 人の参加者|{count} 人の参加者"
+            user_deleted: -削除済み-
+        nav:
+            start_button: プライベートスレッドの作成
+        input:
+            search_recipients: 最初の3文字を入力して参加者を検索...
+        search:
+            headings:
+                groups: 権限グループ
+        modal:
+            titles:
+                update_recipients: {title}の参加者を変更
+                add_recipients: スレッドに参加者を追加
+            help:
+                add_recipients: このスレッドはあなたがここで選択したユーザーにのみ表示されます。あなた以外の参加者が少なくとも1人必要です。
+                update_recipients: このスレッドはあなたがここで選択したユーザーにのみ表示されます。
+        post:
+            recipients_modified:
+                added_and_removed: "{username} が参加者に {added} を追加し、 {removed}を削除しました。"
+                added: "{username} が参加者に {added} を追加しました。"
+                removed: "{username} が参加者から {removed} を削除しました。"
+                removed_self: "{username} がプライベートスレッドから退出しました。"
+        user:
+            settings:
+                block_pd: プライベートスレッドへの参加を拒否する
+
+            byobu_link: プライベートスレッド
+            dropdown_label: プライベートスレッド
+
+        notifications:
+            pd_label: プライベートスレッドに開始された時
+            pd_reply_label: 参加しているプライベートスレッドに投稿があった時
+            pd_reply_text: "{username} があなたの参加しているプライベートスレッドに投稿しました"
+            pd_text: "{username} があなたとのプライベートスレッドを開始しました"
+            pd_user_left_label: 参加しているプライベートスレッドからユーザーが退出した時
+            pd_user_left_text: "{username} がプライベートスレッドから退出しました"
+            pd_added_text: "{username} があなたをプライベートスレッドに追加しました"
+            pd_added_label: "プライベートスレッドに追加された時"
+
+        confirm:
+            make_public: この操作はプライベートスレッドを誰でも見れるように公開します。間違いがないか今一度ご確認ください。
+
+    admin:
+        permission:
+            create_private_discussions_with_users: ユーザー間のプライベートスレッドの作成
+            create_private_discussions_with_groups: グループ間のプライベートスレッドの作成
+            create_private_discussions_with_blocking_users: 拒否しているユーザーに対するプライベートスレッドの作成
+            edit_user_recipients: プライベートスレッドの参加ユーザーの編集
+            edit_group_recipients: プライベートスレッドの参加グループの編集
+            make_private_into_public: プライベートスレッドの公開
+            view_private_discussions-when-flagged: 通報があった場合にプライベートスレッドの内容を表示する
+
+        settings:
+            use_tag_slug: すべてのプライベートスレッドに強制するタグIDを指定します
+            use_tag_slug_help: 空欄にするとユーザーが任意のタグを選択できます。この変更は新しく作成したプライベートスレッドにのみ適用されます。
+
+    notifications:
+        private_discussion_created:
+            title: "[プライベートスレッド] ユーザーがあなたとのプライベートスレッドを開始しました"
+        private_discussion_replied:
+            title: "[プライベートスレッド] プライベートスレッドに投稿がありました"
+        recipient_removed:
+            title: "[プライベートスレッド] ユーザーがプライベートスレッドから退出しました"
+        private_discussion_added:
+            title: "[プライベートスレッド] ユーザーがあなたをプライベートスレッドに追加しました"
