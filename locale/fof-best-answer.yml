@@ -1,0 +1,30 @@
+fof-best-answer:
+  admin:
+    permissions:
+      best_answer: ベストアンサーの選択 (自分のスレッド)
+      best_answer_not_own_discussion: ベストアンサーの選択 (自分以外のスレッド)
+    settings:
+      title: FriendsOfFlarum Best Answer
+      allow_select_own_post: ユーザーが自分自身の投稿を選ぶことを許可する
+      select_best_answer_reminder_days: ベストアンサーを選ぶように、X日後に通知する
+      schedule_on_one_server: タスクスケジューラに 'onOneServer()' ディレクティブを使用する (Redis/Memcache が必要です)
+      schedule_stop_overnight: 深夜帯はリマインダースケジューラを停止する (サーバー時間で午後9時 ~ 午前8時)
+      schedule_log_output: スケジューラの出力をログストレージに保存する
+      remind_tag_ids: 特定のタグのみでリマインダーを受け取りたい場合は、ここにタグIDを入力してください (カンマ区切り)
+      use_alt_ui: 代替レイアウトを使用する (投稿画面のフッターにボタンを置く)
+  forum:
+    answered_badge: 解決済み
+    this_best_answer: ベストアンサーに選ぶ
+    remove_best_answer: ベストアンサーを解除する
+    best_answer_button: ベストアンサー
+    best_answer_label: <a>{username}</a> が {time_set} に選びました
+
+    notification:
+      best_answer_in_discussion: "{username} がこのスレッドのベストアンサーを選びました"
+      content: あなたの質問が解決された場合は、ベストアンサーを選んでください。
+      awarded: あなたの投稿が{username}によってベストアンサーに選ばれました
+      awarded_email: あなたの投稿がユーザーによってベストアンサーに選ばれました。
+      select_email_title: 問題を解決できましたか？
+      preferences:
+        awarded_best_answer: 自分の投稿がベストアンサーに選ばれたとき
+        best_answer_in_discussion: 参加しているスレッドでベストアンサーが選ばれた時
