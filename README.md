@@ -1,4 +1,5 @@
 # Japanese Language Pack for Flarum
+[![CI](https://github.com/takumi9942/flarum-ext-japanese/workflows/CI/badge.svg)](https://github.com/takumi9942/flarum-ext-japanese/actions?query=workflow%3ACI)<br>
 Japanese language pack to localize the Flarum.
 
 ## インストール方法 | Installation
