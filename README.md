@@ -1,4 +1,5 @@
 # Japanese Language Pack for Flarum
+Japanese language pack to localize the Flarum.
 
 ## インストール方法 | Installation
 1. Flarumがインストールされているディレクトリで以下のコマンドを実行してください。<br>
@@ -32,3 +33,6 @@ composer remove takumi9942/flarum-ext-japanese
 - [fof/best-answer](https://github.com/FriendsOfFlarum/best-answer)
 - [fof/polls](https://github.com/FriendsOfFlarum/polls)
 - [fof/byobu:*](https://github.com/FriendsOfFlarum/byobu)
+
+## リンク | Links
+- [Packagist](https://packagist.org/packages/takumi9942/flarum-ext-japanese)

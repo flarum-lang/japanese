@@ -15,13 +15,13 @@ flarum_discussion_views:
     viewlist:
       title: 最近の閲覧者
   admin:
-      permissions:
-        can_reset_views: スレッド閲覧数のリセット
-        can_view_number: スレッド閲覧数の表示
-      settings:
-        title: スレッド閲覧数の設定
-        track_unique: ユニークアクセスでカウントする
-        abbr_numbers: 閲覧数を省略する
-        show_filter: 閲覧数による並び替えを有効化する
-        max_viewcount: 最近の閲覧者の最大数
-        show_viewlist: 最近の閲覧者を表示する
+    permissions:
+      can_reset_views: スレッド閲覧数のリセット
+      can_view_number: スレッド閲覧数の表示
+    settings:
+      title: スレッド閲覧数の設定
+      track_unique: ユニークアクセスでカウントする
+      abbr_numbers: 閲覧数を省略する
+      show_filter: 閲覧数による並び替えを有効化する
+      max_viewcount: 最近の閲覧者の最大数
+      show_viewlist: 最近の閲覧者を表示する
