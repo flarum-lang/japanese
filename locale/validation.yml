@@ -71,6 +71,7 @@ validation:
     array: ":attribute は :min 個以上のみ有効です"
   not_in: "選択された :attribute は無効な値です"
   not_regex: ":attribute 形式が不正です"
+  password: "パスワードが正しくありません"
   numeric: ":attribute は数字のみ有効です"
   present: ":attribute が存在しません"
   regex: ":attribute 無効な値です"

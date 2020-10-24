@@ -40,6 +40,8 @@ core:
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: 標準の言語
+      display_name_heading: ユーザーの表示名
+      display_name_text: ユーザーの表示名として何を使用するかを選択します。初期設定ではユーザー名が表示されます。
       forum_description_heading: フォーラムの説明文
       forum_description_text: あなたのコミュニティを文章で簡潔に入力してください。これはmetaタグに使用され、検索エンジンに表示されます。
       forum_title_heading: フォーラムタイトル
@@ -100,17 +102,15 @@ core:
       mail_mailgun_domain_label: ドメイン
       mail_mailgun_region_label: リージョン
       mail_mailgun_secret_label: シークレットキー
-      mail_mandrill_secret_label: シークレットキー
       mail_password_label: => core.ref.password
       mail_port_label: ポート
-      mail_ses_key_label: Key
-      mail_ses_region_label: リージョン
-      mail_ses_secret_label: シークレット
       mail_username_label: => core.ref.username
       mailgun_heading: Mailgun設定
-      mandrill_heading: Mandrill設定
       not_sending_message: Flarumは現在メールを送信していません。これは、選択した送信方法または設定のエラーが原因である可能性があります。
-      ses_heading: SES設定
+      send_test_mail_button: 送信
+      send_test_mail_heading: テストメールを送信
+      send_test_mail_success: "テストメールは正常に送信されました!"
+      send_test_mail_text: "上記の設定を使用して、あなたのメールアドレスにメールを送信します。({email})"
       smtp_heading: SMTP設定
       submit_button: => core.ref.save_changes
       text: メール送信方法や設定、フォーラムから送信する際に使用するメールアドレスを設定します。
@@ -228,8 +228,10 @@ core:
     # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "まだ変更を保存していません。内容を破棄してもよろしいですか？"
+      edited_message: 編集が完了しました。
       post_link: "投稿 {discussion} #{number}"
       submit_button: => core.ref.save_changes
+      view_button: => core.ref.view
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
@@ -237,7 +239,7 @@ core:
       discard_confirmation: "まだ返信が完了していません。内容を破棄してもよろしいですか？"
       posted_message: 返信が投稿されました。
       submit_button: 返信する
-      view_button: 閲覧
+      view_button: => core.ref.view
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
@@ -300,6 +302,7 @@ core:
       cannot_start_discussion_button: スレッド作成不可
       mark_all_as_read_confirmation: "すべてのスレッドを既読にしますか？"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      meta_title_text: => core.ref.all_discussions
       refresh_tooltip: 更新
       start_discussion_button: => core.ref.start_a_discussion
 
@@ -434,7 +437,9 @@ core:
 
     # These translations are displayed as error messages.
     error:
+      dependent_extensions_message: "以下の依存関係にある拡張機能を無効化するまで、{extension}を無効化できません。: {extensions}"
       generic_message: "エラーが発生しました。ページを更新して再度お試しください。"
+      missing_dependencies_message: "以下の依存関係にある拡張機能を有効化するまで、{extension}を有効化できません。: {extensions}"
       not_found_message: 要求されたリソースが見つかりませんでした。
       permission_denied_message: この操作を実行する権限がありません。
       rate_limit_exceeded_message: 操作が早すぎます。数秒後に再度お試しください。
@@ -544,6 +549,15 @@ core:
 
         パスワードを変更したくない場合は、このメールを無視してください。変更は行われません。
 
+    # These translations are used when testing mailing configuration
+    send_test:
+      subject: Flarum テストメール
+      body: |
+        {username}さん、こんにちは!
+        このメールは、Flarumのメール設定が正しく動作していることを確認するためのものです。
+        もしあなたがこのメールを送信した場合、メール設定は正しく動作していることを意味します。
+        もしこのメールに覚えがない場合は、このメールを無視してください。
+
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
   ##
@@ -589,6 +603,7 @@ core:
     start_a_discussion: スレッドの作成
     username: ユーザー名
     users: ユーザー                                 # Referenced by flarum-statistics.yml
+    view: 閲覧
     write_a_reply: 返信を入力...
     you: あなた                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
