@@ -7,12 +7,6 @@ core:
   # Translations in this namespace are used by the admin interface.
   admin:
 
-    # These translations are used in the placeholder Add Extension modal dialog.
-    add_extension:
-      developer_text: "もしあなたが開発者であれば<a>ドキュメント</a>を読んでオリジナルの拡張機能を作成することができます。"
-      install_text: "または、<a>Flarum コミュニティサイト</a>から拡張機能を探し、Composerを使用して手動でインストールできます。"
-      temporary_text: "近い将来、このダイアログから簡単に拡張機能を導入できるようになります。"
-      title: 拡張機能の追加
 
     # These translations are used in the Appearance page.
     appearance:
@@ -26,6 +20,7 @@ core:
       custom_styles_heading: カスタムスタイル
       custom_styles_text: LESS/CSSコードを使用してFlarumの見た目をカスタマイズできます。
       dark_mode_label: ダークモード
+      description: "フォーラムの色やロゴなどをカスタマイズします。"
       edit_css_button: CSSを編集
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
@@ -35,11 +30,13 @@ core:
       logo_heading: ロゴ
       logo_text: 画像をアップロードすると、フォーラムのタイトルの代わりに表示されます。
       submit_button: => core.ref.save_changes
+      title: 外見
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: 標準の言語
+      description: "フォーラムのタイトルや言語などの基本設定を変更します。"
       display_name_heading: ユーザーの表示名
       display_name_text: ユーザーの表示名として何を使用するかを選択します。初期設定ではユーザー名が表示されます。
       forum_description_heading: フォーラムの説明文
@@ -49,13 +46,18 @@ core:
       home_page_text: あなたのフォーラムを訪れたユーザーが最初に見るページを設定します。
       saved_message: 変更が保存されました。
       show_language_selector_label: 言語選択を表示する
+      slug_driver_heading: "Slug Driver: {model}"
+      slug_driver_text: Select a driver to be used for slugging this model.
       submit_button: => core.ref.save_changes
+      title: 基本設定
       welcome_banner_heading: ウェルカムメッセージ
       welcome_banner_text: スレッド一覧ページの上部に表示されるテキストを設定します。これを使用してゲストを歓迎しましょう。
 
     # These translations are used in the Dashboard page.
     dashboard:
       clear_cache_button: キャッシュのクリア
+      description: フォーラムの概況を確認します。
+      title: ダッシュボード
       tools_button: ツール
 
     # These translations are used in the Edit Custom CSS modal dialog.
@@ -93,10 +95,10 @@ core:
     # These translations are used in the email page of the admin interface.
     email:
       addresses_heading: アドレス
+      description: "メールの送信方法や、フォーラムが使用するメールアドレスを設定します。"
       driver_heading: 送信方法の選択
       driver_label: 送信方法
       from_label: 送信者
-      heading: => core.ref.email
       mail_encryption_label: 暗号化
       mail_host_label: ホスト
       mail_mailgun_domain_label: ドメイン
@@ -113,16 +115,31 @@ core:
       send_test_mail_text: "上記の設定を使用して、あなたのメールアドレスにメールを送信します。({email})"
       smtp_heading: SMTP設定
       submit_button: => core.ref.save_changes
-      text: メール送信方法や設定、フォーラムから送信する際に使用するメールアドレスを設定します。
+      title: => core.ref.email
 
-    # These translations are used in the Extensions page.
-    extensions:
-      add_button: 拡張機能の追加
-      settings_button: => core.ref.settings
+    # These translations are used on default extension pages.
+    extension:
+      confirm_uninstall: アンインストールは、この拡張機能に関連するすべてのデータベースとファイルを削除します。本当に続行しますか？
+      disabled: 無効
+      enabled: 有効
+      enable_to_see: 設定を確認, 変更するには拡張機能を有効化してください
+      info_links:
+        discuss: チャット
+        documentation: 説明書
+        donate: 寄付
+        source: ソースコード
+        support: サポート
+        website: Webサイト
+      no_permissions: この拡張機能には権限がありません
+      no_settings: この拡張機能には設定がありません
+      open_modal: 設定を開く
+      permissions_title: 権限
+      saved_message: 変更が保存されました
       uninstall_button: アンインストール
 
-    # These translations are used in the session dropdown menu.
+    # These translations are used in the session secondary header.
     header:
+      get_help: ヘルプを開く
       log_out_button: => core.ref.log_out
 
     # These translations are used in the modal dialog displayed when loading extensions.
@@ -131,18 +148,27 @@ core:
 
     # These translations are used in the navigation bar.
     nav:
-      appearance_button: 外観
-      appearance_text: "フォーラムの色やロゴなどをカスタマイズします。"
-      basics_button: 基本
-      basics_text: "タイトルや言語、その他の基本設定を変更します。"
-      dashboard_button: ダッシュボード
-      dashboard_text: フォーラムの概況を確認します。
+      appearance_button: => core.admin.appearance.title
+      appearance_title: => core.admin.appearance.description
+      basics_button: => core.admin.basics.title
+      basics_title: => core.admin.basics.description
+      categories:
+        authentication: 認証
+        core: 基本設定
+        discussion: 会話
+        feature: 機能
+        formatting: 書式
+        language: 言語
+        moderation: 管理
+        other: その他
+        theme: テーマ
+      dashboard_button: => core.admin.dashboard.title
+      dashboard_title: => core.admin.dashboard.description
       email_button: => core.ref.email
-      email_text: "フォーラムのメール設定を変更します。"
-      extensions_button: 拡張機能
-      extensions_text: フォーラムに新たな機能を追加します。
-      permissions_button: 権限
-      permissions_text: 権限を変更します。
+      email_title: => core.admin.email.description
+      permissions_button: => core.admin.permissions.title
+      permissions_title: => core.admin.permissions.description
+      search_placeholder: 拡張機能を検索
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -153,6 +179,7 @@ core:
       delete_discussions_label: スレッドの削除
       delete_posts_forever_label: 投稿の完全削除
       delete_posts_label: 投稿の削除
+      description: 誰が閲覧出来て、何が出来るのかを設定します
       edit_posts_label: 投稿の編集
       edit_users_label: ユーザーの編集
       global_heading: 全体
@@ -165,6 +192,7 @@ core:
       reply_to_discussions_label: 返信
       sign_up_label: 新規登録
       start_discussions_label: スレッドの作成
+      title: 権限
       view_discussions_label: スレッドの閲覧
       view_hidden_groups_label: 隠しグループのバッジを表示
       view_last_seen_at_label: ユーザーの最終閲覧日時の表示
