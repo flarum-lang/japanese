@@ -179,7 +179,7 @@ core:
       delete_discussions_label: スレッドの削除
       delete_posts_forever_label: 投稿の完全削除
       delete_posts_label: 投稿の削除
-      description: 誰が閲覧出来て、何が出来るのかを設定します
+      description: 各グループのユーザーが閲覧出来る範囲と操作可能な範囲を設定します
       edit_posts_label: 投稿の編集
       edit_users_label: ユーザーの編集
       global_heading: 全体
@@ -207,8 +207,8 @@ core:
       allow_until_reply_button: 次の返信まで
       everyone_button: 全員
       members_button: => core.group.members
-      signup_closed_button: 閉鎖
-      signup_open_button: 開放
+      signup_closed_button: 許可しない
+      signup_open_button: 許可する
 
     # These translations are used in the Settings modal dialog.
     settings:

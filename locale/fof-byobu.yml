@@ -10,7 +10,6 @@ fof-byobu:
             send_pd: "{username} へメッセージを送信"
             cancel: キャンセル
             remove_from_discussion: このプライベートスレッドから退出
-            make_public: このスレッドを公開する
         composer_private_discussion:
             submit_button: プライベートスレッドを投稿
             title_placeholder: プライベートスレッドのタイトル
@@ -19,6 +18,7 @@ fof-byobu:
             user_deleted: -削除済み-
         nav:
             start_button: プライベートスレッドの作成
+            nav_item: "プライベートスレッド"
         input:
             search_recipients: 最初の3文字を入力して参加者を検索...
         search:
@@ -40,7 +40,7 @@ fof-byobu:
         user:
             settings:
                 block_pd: プライベートスレッドへの参加を拒否する
-
+                unified_index: プライベートスレッドを統合する
             byobu_link: プライベートスレッド
             dropdown_label: プライベートスレッド
 
@@ -64,19 +64,40 @@ fof-byobu:
             create_private_discussions_with_blocking_users: 拒否しているユーザーに対するプライベートスレッドの作成
             edit_user_recipients: プライベートスレッドの参加ユーザーの編集
             edit_group_recipients: プライベートスレッドの参加グループの編集
-            make_private_into_public: プライベートスレッドの公開
             view_private_discussions-when-flagged: 通報があった場合にプライベートスレッドの内容を表示する
 
         settings:
-            use_tag_slug: すべてのプライベートスレッドに強制するタグIDを指定します
-            use_tag_slug_help: 空欄にするとユーザーが任意のタグを選択できます。この変更は新しく作成したプライベートスレッドにのみ適用されます。
+            badge-icon: プライベートスレッドアイコン
+            post-event-icon: プライベート投稿通知アイコン
 
-    notifications:
-        private_discussion_created:
-            title: "[プライベートスレッド] ユーザーがあなたとのプライベートスレッドを開始しました"
-        private_discussion_replied:
-            title: "[プライベートスレッド] プライベートスレッドに投稿がありました"
-        recipient_removed:
-            title: "[プライベートスレッド] ユーザーがプライベートスレッドから退出しました"
-        private_discussion_added:
-            title: "[プライベートスレッド] ユーザーがあなたをプライベートスレッドに追加しました"
+    email:
+        subject:
+            private_discussion_created: "[プライベートスレッド] {display_name}があなたとのプライベートスレッドを開始しました"
+            private_discussion_replied: "[プライベートスレッド] {display_name}がプライベートスレッドに投稿しました"
+            recipient_removed: "[プライベートスレッド] {display_name}がプライベートスレッドから退出しました"
+            private_discussion_added: "[プライベートスレッド] {display_name}があなたをプライベートスレッドに追加しました"
+        body:
+            private_discussion_created: |
+                {recipient_display_name}さん、こんにちは。
+                {actor_display_name}さんがあなたとのプライベートスレッド '{discussion_title}' を開始しました。
+                以下のリンクから確認してください。
+                {discussion_url}
+                このリンクにアクセスするにはログインが必要です。
+            private_discussion_replied: |
+                {recipient_display_name}さん、こんにちは。
+                {actor_display_name}さんが、あなたの参加しているプライベートスレッド '{discussion_title}' に投稿しました。
+                以下のリンクから確認してください。
+                {discussion_url}
+                このリンクにアクセスするにはログインが必要です。
+            recipient_removed: |
+                {recipient_display_name}さん、こんにちは。
+                {actor_display_name}さんが、プライベートスレッド '{discussion_title}' から退出しました。退出したユーザーはプライベートスレッドの内容を確認できなくなります。
+                以下のリンクから確認してください。
+                {discussion_url}
+                このリンクにアクセスするにはログインが必要です。
+            private_discussion_added: |
+                {recipient_display_name}さん、こんにちは。
+                {actor_display_name}さんが、あなたを既存のプライベートスレッド '{discussion_title}' に追加しました。
+                以下のリンクから確認してください。
+                {discussion_url}
+                このリンクにアクセスするにはログインが必要です。
