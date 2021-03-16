@@ -29,7 +29,6 @@ core:
       favicon_text: 画像をアップロードすると、フォーラムのFaviconに表示されます。
       logo_heading: ロゴ
       logo_text: 画像をアップロードすると、フォーラムのタイトルの代わりに表示されます。
-      submit_button: => core.ref.save_changes
       title: 外見
 
     # These translations are used in the Basics page.
@@ -44,11 +43,9 @@ core:
       forum_title_heading: フォーラムタイトル
       home_page_heading: ホームページ
       home_page_text: あなたのフォーラムを訪れたユーザーが最初に見るページを設定します。
-      saved_message: 変更が保存されました。
       show_language_selector_label: 言語選択を表示する
       slug_driver_heading: "Slug Driver: {model}"
       slug_driver_text: Select a driver to be used for slugging this model.
-      submit_button: => core.ref.save_changes
       title: 基本設定
       welcome_banner_heading: ウェルカムメッセージ
       welcome_banner_text: スレッド一覧ページの上部に表示されるテキストを設定します。これを使用してゲストを歓迎しましょう。
@@ -114,15 +111,15 @@ core:
       send_test_mail_success: "テストメールは正常に送信されました!"
       send_test_mail_text: "上記の設定を使用して、あなたのメールアドレスにメールを送信します。({email})"
       smtp_heading: SMTP設定
-      submit_button: => core.ref.save_changes
       title: => core.ref.email
 
     # These translations are used on default extension pages.
     extension:
+      configure_scopes: Configure Scopes
       confirm_uninstall: アンインストールは、この拡張機能に関連するすべてのデータベースとファイルを削除します。本当に続行しますか？
       disabled: 無効
-      enabled: 有効
       enable_to_see: 設定を確認, 変更するには拡張機能を有効化してください
+      enabled: 有効
       info_links:
         discuss: チャット
         documentation: 説明書
@@ -134,7 +131,6 @@ core:
       no_settings: この拡張機能には設定がありません
       open_modal: 設定を開く
       permissions_title: 権限
-      saved_message: 変更が保存されました
       uninstall_button: アンインストール
 
     # These translations are used in the session secondary header.
@@ -182,6 +178,8 @@ core:
       description: 各グループのユーザーが閲覧出来る範囲と操作可能な範囲を設定します
       edit_posts_label: 投稿の編集
       edit_users_label: ユーザーの編集
+      edit_users_credentials_label: ユーザーの認証情報の編集
+      edit_users_groups_label: ユーザーのグループの編集
       global_heading: 全体
       moderate_heading: 管理
       new_group_button: 新しいグループ
@@ -210,8 +208,9 @@ core:
       signup_closed_button: 許可しない
       signup_open_button: 許可する
 
-    # These translations are used in the Settings modal dialog.
+    # These translations are used generically in setting fields.
     settings:
+      saved_message: 変更が保存されました。
       submit_button: => core.ref.save_changes
 
     # These translations are used in image upload buttons.
@@ -295,6 +294,7 @@ core:
       email_heading: => core.ref.email
       email_label: => core.ref.email
       groups_heading: グループ
+      nothing_available: 編集出来る項目がありません
       password_heading: => core.ref.password
       password_label: => core.ref.password
       set_password_label: 新しいパスワード

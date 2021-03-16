@@ -18,7 +18,7 @@ validation:
   confirmed: ":attribute を確認用と一致させてください"
   date: ":attribute を有効な日付形式にしてください"
   date_equals: ":attribute を :date と一致した日付にしてください"
-  date_format: ":attribute を :other 書式と一致させてください"
+  date_format: ":attribute を :format 書式と一致させてください"
   different: ":attribute を :other と違うものにしてください"
   digits: ":attribute は :digits 桁のみ有効です"
   digits_between: ":attribute は :min ～ :max 桁のみ有効です"
