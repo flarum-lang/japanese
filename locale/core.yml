@@ -229,7 +229,7 @@ core:
           edit_user:
             button: => core.ref.edit
             title: => core.ref.edit_user
-            tooltip: {username}さんを編集
+            tooltip: "{username}さんを編集"
 
           email:
             title: => core.ref.email
@@ -247,7 +247,7 @@ core:
             title: ID
 
           username:
-            profile_link_tooltip: {username}さんのプロフィールを表示
+            profile_link_tooltip: "{username}さんのプロフィールを表示"
             title: => core.ref.username
 
         invalid_column_content: 無効
@@ -255,7 +255,7 @@ core:
       pagination:
         back_button: 前のページ
         next_button: 次のページ
-        page_counter: {current} / {total} ページ
+        page_counter: "{current} / {total} ページ"
 
       title: => core.ref.users
       total_users: "全ユーザー数: {count}"
