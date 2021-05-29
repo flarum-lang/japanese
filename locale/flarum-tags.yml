@@ -65,8 +65,8 @@ flarum-tags:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "プライマリタグを選択してください|プライマリタグを{count}つ選択してください"
-      choose_secondary_placeholder: "1つ以上のタグを選択してください|{count}つ以上のタグを選択してください"
+      choose_primary_placeholder: "{count, plural, one {プライマリタグを選択してください} other {プライマリタグを # つ選択してください}}"
+      choose_secondary_placeholder: "{count, plural, one {1つ以上のタグを選択してください} other {# つ以上のタグを選択してください}}"
       edit_title: "{title}のタグを編集"
       submit_button: => core.ref.okay
       title: スレッドに付けるタグを選択
@@ -93,7 +93,7 @@ flarum-tags:
       added_and_removed_tags_text: "{username} が {tagsAdded} を追加し、 {tagsRemoved} を削除しました。"
       added_tags_text: "{username} が {tagsAdded} を追加しました。"
       removed_tags_text: "{username} が {tagsRemoved} を削除しました。"
-      tags_text: "{tags} タグ|{tags} タグ"
+      tags_text: "{count, plural, one {{tags} タグ} other {{tags} タグ}}"
 
     # These translations are used when visiting a single tag's discussion list.
     tag:

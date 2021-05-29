@@ -14,7 +14,7 @@ fof-byobu:
             submit_button: プライベートスレッドを投稿
             title_placeholder: プライベートスレッドのタイトル
         labels:
-            recipients: "{count} 人の参加者|{count} 人の参加者"
+            recipients: "{count, plural, one {{count} 人の参加者} other {{count} 人の参加者}}"
             user_deleted: -削除済み-
         nav:
             start_button: プライベートスレッドの作成
@@ -40,7 +40,6 @@ fof-byobu:
         user:
             settings:
                 block_pd: プライベートスレッドへの参加を拒否する
-                unified_index: プライベートスレッドを統合する
             byobu_link: プライベートスレッド
             dropdown_label: プライベートスレッド
 
@@ -53,9 +52,6 @@ fof-byobu:
             pd_user_left_text: "{username} がプライベートスレッドから退出しました"
             pd_added_text: "{username} があなたをプライベートスレッドに追加しました"
             pd_added_label: "プライベートスレッドに追加された時"
-
-        confirm:
-            make_public: この操作はプライベートスレッドを誰でも見れるように公開します。間違いがないか今一度ご確認ください。
 
     admin:
         permission:
