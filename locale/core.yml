@@ -18,7 +18,7 @@ core:
       custom_header_heading: カスタムヘッダー
       custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: カスタムスタイル
-      custom_styles_text: LESS/CSSコードを使用してFlarumの見た目をカスタマイズできます。
+      custom_styles_text: Less/CSSコードを使用してFlarumの見た目をカスタマイズできます。
       dark_mode_label: ダークモード
       description: "フォーラムの色やロゴなどをカスタマイズします。"
       edit_css_button: CSSを編集
@@ -59,7 +59,7 @@ core:
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "LESS/CSSコードを使用して<a>標準のスタイル</a>を上書きすることで、Flarumの見た目をカスタマイズできます。"
+      customize_text: "Less/CSSコードを使用して<a>標準のスタイル</a>を上書きすることで、Flarumの見た目をカスタマイズできます。"
       submit_button: => core.ref.save_changes
       title: CSSを編集
 
@@ -164,6 +164,8 @@ core:
       email_title: => core.admin.email.description
       permissions_button: => core.admin.permissions.title
       permissions_title: => core.admin.permissions.description
+      userlist_button: => core.admin.users.title
+      userlist_title: => core.admin.users.description
       search_placeholder: 拡張機能を検索
 
     # These translations are used in the Permissions page of the admin interface.
@@ -188,19 +190,19 @@ core:
       read_heading: 閲覧
       rename_discussions_label: タイトルの変更
       reply_to_discussions_label: 返信
+      search_users_label: ユーザーの検索
       sign_up_label: 新規登録
       start_discussions_label: スレッドの作成
       title: 権限
-      view_discussions_label: スレッドの閲覧
+      view_forum_label: フォーラムの閲覧 (スレッド/ユーザー一覧)
       view_hidden_groups_label: 隠しグループのバッジを表示
       view_last_seen_at_label: ユーザーの最終閲覧日時の表示
       view_post_ips_label: 投稿IPアドレスの閲覧
-      view_user_list_label: ユーザー一覧の閲覧
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
       allow_indefinitely_button: 無制限
-      allow_some_minutes_button: "{count} 分|{count} 分"
+      allow_some_minutes_button: "{count, plural, one {# 分} other {# 分}}"
       allow_ten_minutes_button: 10分間
       allow_until_reply_button: 次の返信まで
       everyone_button: 全員
@@ -217,6 +219,46 @@ core:
     upload_image:
       remove_button: => core.ref.remove
       upload_button: 画像を選択...
+
+    # These translations are used for the users list on the admin dashboard.
+    users:
+      description: あなたのフォーラムに登録しているユーザーの一覧です。
+
+      grid:
+        columns:
+          edit_user:
+            button: => core.ref.edit
+            title: => core.ref.edit_user
+            tooltip: "{username}さんを編集"
+
+          email:
+            title: => core.ref.email
+            visibility_hide: Hide email address
+            visibility_show: Show email address
+
+          group_badges:
+            no_badges: なし
+            title: グループ
+
+          join_time:
+            title: 登録日
+
+          user_id:
+            title: ID
+
+          username:
+            profile_link_tooltip: "{username}さんのプロフィールを表示"
+            title: => core.ref.username
+
+        invalid_column_content: 無効
+
+      pagination:
+        back_button: 前のページ
+        next_button: 次のページ
+        page_counter: "{current} / {total} ページ"
+
+      title: => core.ref.users
+      total_users: "全ユーザー数: {count}"
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -279,6 +321,7 @@ core:
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
+      toggle_dropdown_accessible_label: Toggle discussion actions dropdown menu
 
     # These translations are used in the discussion list.
     discussion_list:
@@ -287,21 +330,6 @@ core:
       mark_as_read_tooltip: 既読にする
       replied_text: "{username} が {ago} に返信しました"
       started_text: "{username} が {ago} に作成しました"
-
-    # These translations are used in the Edit User modal dialog (admin function).
-    edit_user:
-      activate_button: ユーザーを有効化
-      email_heading: => core.ref.email
-      email_label: => core.ref.email
-      groups_heading: グループ
-      nothing_available: 編集出来る項目がありません
-      password_heading: => core.ref.password
-      password_label: => core.ref.password
-      set_password_label: 新しいパスワード
-      submit_button: => core.ref.save_changes
-      title: ユーザーの編集
-      username_heading: => core.ref.username
-      username_label: => core.ref.username
 
     # These translations are used in the Forgot Password modal dialog.
     forgot_password:
@@ -317,10 +345,12 @@ core:
     header:
       admin_button: 管理
       back_to_index_tooltip: スレッド一覧に戻る
+      locale_dropdown_accessible_label: Change forum locale
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: プロフィール
       search_placeholder: フォーラムを検索
+      session_dropdown_accessible_label: Toggle session options dropdown menu
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
@@ -333,6 +363,7 @@ core:
       meta_title_text: => core.ref.all_discussions
       refresh_tooltip: 更新
       start_discussion_button: => core.ref.start_a_discussion
+      toggle_sidenav_dropdown_accessible_label: Toggle navigation dropdown menu
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
@@ -340,6 +371,7 @@ core:
       newest_button: 作成日時：新しい順
       oldest_button: 作成日時：古い順
       relevance_button: 関連性順
+      toggle_dropdown_accessible_label: スレッド一覧の並び順を変更する
       top_button: 投稿数：多い順
 
     # These translations are used in the Log In modal dialog.
@@ -360,6 +392,7 @@ core:
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       mark_as_read_tooltip: 既読にする
       title: => core.ref.notifications
+      toggle_dropdown_accessible_label: 通知を表示
       tooltip: => core.ref.notifications
 
     # These translations are used by tooltips displayed for individual posts.
@@ -376,13 +409,14 @@ core:
       edit_button: => core.ref.edit
       hide_confirmation: "この投稿を削除しますか？"
       restore_button: => core.ref.restore
+      toggle_dropdown_accessible_label: Toggle post controls dropdown menu
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
       now_link: 最新の投稿
       original_post_link: 最初の投稿
       unread_text: "{count} 件の未読"
-      viewing_text: "{index} / {count} 件|{index} / {count} 件"
+      viewing_text: "{count, plural, one {{index} / {formattedCount} 件} other {{index} / {formattedCount} 件}}"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
@@ -449,6 +483,7 @@ core:
       delete_error_message: "ユーザー <i>{username} ({email})</i> の削除に失敗しました。"
       delete_success_message: "ユーザー <i>{username} ({email})</i> は削除されました。"
       edit_button: => core.ref.edit
+      toggle_dropdown_accessible_label: Toggle user controls dropdown menu
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
@@ -463,6 +498,24 @@ core:
     badge:
       hidden_tooltip: 非表示
 
+    # These translations are used in the dropdown component.
+    dropdown:
+      toggle_dropdown_accessible_label: Toggle dropdown menu
+
+    # These translations are used in the Edit User modal dialog (admin function).
+    edit_user:
+      activate_button: ユーザーを有効化
+      email_heading: => core.ref.email
+      email_label: => core.ref.email
+      groups_heading: グループ
+      password_heading: => core.ref.password
+      password_label: => core.ref.password
+      set_password_label: Set new password
+      submit_button: => core.ref.save_changes
+      title: => core.ref.edit_user
+      username_heading: => core.ref.username
+      username_label: => core.ref.username
+
     # These translations are displayed as error messages.
     error:
       dependent_extensions_message: "以下の依存関係にある拡張機能を無効化するまで、{extension}を無効化できません。: {extensions}"
@@ -471,6 +524,10 @@ core:
       not_found_message: 要求されたリソースが見つかりませんでした。
       permission_denied_message: この操作を実行する権限がありません。
       rate_limit_exceeded_message: 操作が早すぎます。数秒後に再度お試しください。
+
+    # These translations are used in the loading indicator component.
+    loading_indicator:
+      accessible_label: => core.ref.loading
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -494,7 +551,7 @@ core:
     content:
       javascript_disabled_message: このサイトを正しく表示するには、最新のブラウザを使用し、Javascriptを有効化してください。
       load_error_message: フルバージョンの読込中にエラーが発生しました。スーパーリロードを行ってください。
-      loading_text: 読み込み中...
+      loading_text: => core.ref.loading
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
@@ -606,10 +663,12 @@ core:
     delete_forever: 完全に削除
     discussions: スレッド                     # Referenced by flarum-statistics.yml
     edit: 編集
+    edit_user: ユーザーの編集
     email: メールアドレス
     icon: アイコン
     icon_text: "<a>FontAwesome</a> のアイコンクラスの名前を入力してください。<code>fas fa-</code>といった接頭辞も<em>含めてください</em>。"
     load_more: 更に読み込む
+    loading: 読込中...
     log_in: ログイン
     log_out: ログアウト
     mark_all_as_read: すべて既読にする
@@ -627,7 +686,7 @@ core:
     save_changes: 変更を保存                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: 設定
     sign_up: 新規登録
-    some_others: "他 {count} 人|他 {count} 人"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    some_others: "{count, plural, one {他 # 人} other {他 # 人}}"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: スレッドの作成
     username: ユーザー名
     users: ユーザー                                 # Referenced by flarum-statistics.yml

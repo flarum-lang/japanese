@@ -1,10 +1,12 @@
 fof-polls:
   admin:
     permissions:
-      moderate: アンケートの編集 / 削除
-      self_edit: ユーザーが自身のアンケートを編集
+      view_results_without_voting: 回答せずに結果を見る
       start: アンケートの実施
+      self_edit: ユーザーに回答内容の編集を許可する
       vote: アンケートへの回答
+      change_vote: 回答の編集
+      moderate: アンケートの編集 / 削除
 
   forum:
     days_remaining: アンケートの締め切り：{time}
@@ -38,7 +40,7 @@ fof-polls:
 
     tooltip:
       badge: アンケート
-      votes: "1 件の回答|{count} 件の回答"
+      votes: "{count, plural, one {# 件の回答} other {# 件の回答}}"
 
     votes_modal:
       title: 回答者

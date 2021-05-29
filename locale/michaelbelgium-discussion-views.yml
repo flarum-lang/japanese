@@ -9,7 +9,7 @@ michaelbelgium-discussion-views:
     modal_resetviews:
       title: スレッドの閲覧数をリセット
       submit_button: はい、全て削除します
-      label: このスレッドの閲覧数：{count} をリセットします。よろしいですか？|このスレッドの閲覧数：{count} をリセットします。よろしいですか？
+      label: "{count, plural, one {このスレッドの閲覧数：{count} をリセットします。よろしいですか？} other {このスレッドの閲覧数：{count} をリセットします。よろしいですか？}}"
     discussion_controls:
       resetviews_button: 閲覧数のリセット
     viewlist:
