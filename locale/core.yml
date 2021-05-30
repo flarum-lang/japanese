@@ -44,8 +44,8 @@ core:
       home_page_heading: ホームページ
       home_page_text: あなたのフォーラムを訪れたユーザーが最初に見るページを設定します。
       show_language_selector_label: 言語選択を表示する
-      slug_driver_heading: "Slug Driver: {model}"
-      slug_driver_text: Select a driver to be used for slugging this model.
+      slug_driver_heading: "スラッグ: {model}"
+      slug_driver_text: 上記のURLで使用するスラッグを選択します。
       title: 基本設定
       welcome_banner_heading: ウェルカムメッセージ
       welcome_banner_text: スレッド一覧ページの上部に表示されるテキストを設定します。これを使用してゲストを歓迎しましょう。
@@ -115,7 +115,7 @@ core:
 
     # These translations are used on default extension pages.
     extension:
-      configure_scopes: Configure Scopes
+      configure_scopes: 権限設定
       confirm_uninstall: アンインストールは、この拡張機能に関連するすべてのデータベースとファイルを削除します。本当に続行しますか？
       disabled: 無効
       enable_to_see: 設定を確認, 変更するには拡張機能を有効化してください

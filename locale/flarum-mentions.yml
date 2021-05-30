@@ -4,6 +4,15 @@ flarum-mentions:
   # UNIQUE KEYS - The following keys are used in only one location each.
   ##
 
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the mentions Settings page.
+    settings:
+      allow_username_format_label: ユーザー名でのメンションを許可する (@Username)
+      allow_username_format_text: |
+        現在、ユーザーをメンションする時の構文は @"表示名"#ID です。
+        この設定は、古い構文である @ユーザー名 を許可しますが、保存時に上記の新しい構文に変換されます。
   # Translations in this namespace are used by the forum user interface.
   forum:
 
@@ -16,7 +25,7 @@ flarum-mentions:
     notifications:
       others_text: => core.ref.some_others
       post_mentioned_text: "{username} があなたの投稿に返信しました"  # Can be pluralized to agree with the number of users!
-      user_mentioned_text: "{username} mentioned you"
+      user_mentioned_text: "{username} があなたをメンションしました"
 
     # These translations are displayed beneath individual posts.
     post:
@@ -35,6 +44,10 @@ flarum-mentions:
     # These translations are used in the user profile page and profile popup.
     user:
       mentions_link: メンション
+
+    # These translations are used in the post mentions
+    post_mention:
+      deleted_text: "[不明]"
 
   # Translations in this namespace are used in emails sent by the forum.
   email:

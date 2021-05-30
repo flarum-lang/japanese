@@ -34,6 +34,7 @@ flarum-tags:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       allow_edit_tags_label: タグの編集
+      bypass_tag_counts_label: タグの必要数設定を無視
       restrict_by_tag_heading: タグ毎の制限
       tag_discussions_label: タグの変更
 
