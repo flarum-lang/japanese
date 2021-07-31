@@ -40,4 +40,4 @@ var e = {
   },
 }
 
-return dayjs.locale(e)
+dayjs.locale(e)
