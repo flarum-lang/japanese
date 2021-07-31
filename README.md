@@ -1,12 +1,11 @@
 # Japanese Language Pack for Flarum
-[![CI](https://github.com/takumi9942/flarum-ext-japanese/workflows/CI/badge.svg)](https://github.com/takumi9942/flarum-ext-japanese/actions?query=workflow%3ACI)<br>
+[![CI](https://github.com/flarum-lang/japanese/workflows/CI/badge.svg)](https://github.com/flarum-lang/japanese/actions?query=workflow%3ACI)<br>
 Japanese language pack to localize the Flarum.
-
 ## インストール方法 | Installation
 1. Flarumがインストールされているディレクトリで以下のコマンドを実行してください。<br>
 Run the following command in the location where Flarum is installed.
 ```
-composer require takumi9942/flarum-ext-japanese
+composer require flarum-lang/japanese
 ```
 
 2. 管理画面の拡張機能ページから、`` Japanese ``を有効化します。<br>
@@ -21,11 +20,11 @@ Run the following command in the location where Flarum is installed.
 
 - アップデート | Updating
 ```
-composer update takumi9942/flarum-ext-japanese
+composer update flarum-lang/japanese
 ```
 - アンインストール | Uninstall
 ```
-composer remove takumi9942/flarum-ext-japanese
+composer remove flarum-lang/japanese
 ```
 
 ## 対応する拡張機能 | Supported extensions

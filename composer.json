@@ -1,5 +1,5 @@
 {
-    "name": "takumi9942/flarum-ext-japanese",
+    "name": "flarum-lang/japanese",
     "type": "flarum-extension",
     "description": "Japanese language pack.",
     "keywords": ["locale", "japanese"],
