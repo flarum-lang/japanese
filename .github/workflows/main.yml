@@ -31,7 +31,7 @@ jobs:
       - name: Install dependencies
         run: composer install --prefer-dist --no-progress
       
-  lintAllTheThings:
+  yamllint:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     
@@ -39,6 +39,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: yaml-lint
-        uses: ibiqlik/action-yamllint@master
+        uses: ibiqlik/action-yamllint@v3.0.4
         with:
           config_file: .github/.yamllint.yml
