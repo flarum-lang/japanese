@@ -35,6 +35,11 @@ composer remove flarum-lang/japanese
 - [fof/byobu:*](https://github.com/FriendsOfFlarum/byobu)
 - [fof/upload](http://github.com/FriendsOfFlarum/upload)
 - [fof/links](https://github.com/FriendsOfFlarum/links)
+- [fof/follow-tags](https://github.com/FriendsOfFlarum/follow-tags)
+- [fof/formatting](https://github.com/FriendsOfFlarum/formatting)
+- [fof/pages](https://github.com/FriendsOfFlarum/pages)
+- [fof/user-bio](https://github.com/FriendsOfFlarum/user-bio)
+- [acpl/mobile-tab](https://github.com/android-com-pl/mobile-tab)
 
 ## リンク | Links
 - [Packagist](https://packagist.org/packages/takumi9942/flarum-ext-japanese)
