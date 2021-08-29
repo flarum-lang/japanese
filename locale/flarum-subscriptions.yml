@@ -41,7 +41,7 @@ flarum-subscriptions:
       following_button: => flarum-subscriptions.ref.following
       following_text: すべての返信を通知する
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: 通知を停止し、スレッドリストから隠す
+      ignoring_text: 通知を停止し、スレッド一覧に表示しない
       not_following_button: フォローしない
       not_following_text: "@メンション された時のみ通知する"
       notify_alert_tooltip: 新しい投稿があった時にフォーラム内で通知する
@@ -56,7 +56,7 @@ flarum-subscriptions:
       body: |
         {recipient_display_name}さん、こんにちは!
         {poster_display_name} さんが、あなたのフォローしているスレッドで投稿しました: {title}。
-        内容を閲覧するには、以下のリンクを確認してください。:
+        内容を閲覧するには、以下のリンクを確認してください:
         {url}
         ---
         {content}

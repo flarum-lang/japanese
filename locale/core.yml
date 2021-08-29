@@ -510,7 +510,7 @@ core:
       groups_heading: グループ
       password_heading: => core.ref.password
       password_label: => core.ref.password
-      set_password_label: Set new password
+      set_password_label: 新しいパスワードを設定
       submit_button: => core.ref.save_changes
       title: => core.ref.edit_user
       username_heading: => core.ref.username
