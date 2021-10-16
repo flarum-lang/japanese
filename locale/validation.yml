@@ -28,6 +28,8 @@ validation:
   ends_with: ":attribute は次の何れかで終わる必要があります: :values"
   exists: "selected :attribute 無効な値です"
   file: ":attribute はファイルである必要があります"
+  file_too_large: ":attribute が上限サイズを超えています"
+  file_upload_failed: ":attribute のアップロードに失敗しました"
   filled: ":attribute 値を入力してください"
   gt:
     numeric: ":attribute は :value より大きい必要があります。"
