@@ -233,8 +233,8 @@ core:
 
           email:
             title: => core.ref.email
-            visibility_hide: Hide email address
-            visibility_show: Show email address
+            visibility_hide: メールアドレスを隠す
+            visibility_show: メールアドレスを表示
 
           group_badges:
             no_badges: なし
@@ -345,11 +345,13 @@ core:
     header:
       admin_button: 管理
       back_to_index_tooltip: スレッド一覧に戻る
-      locale_dropdown_accessible_label: Change forum locale
+      locale_dropdown_accessible_label: フォーラムの言語を変更
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: プロフィール
+      search_clear_button_accessible_label: 検索ワードの削除
       search_placeholder: フォーラムを検索
+      search_role_label: フォーラムを検索
       session_dropdown_accessible_label: Toggle session options dropdown menu
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
@@ -515,6 +517,7 @@ core:
       title: => core.ref.edit_user
       username_heading: => core.ref.username
       username_label: => core.ref.username
+      nothing_available: このユーザーを編集する権限がありません。
 
     # These translations are displayed as error messages.
     error:
@@ -522,8 +525,10 @@ core:
       generic_message: "エラーが発生しました。ページを更新して再度お試しください。"
       missing_dependencies_message: "以下の依存関係にある拡張機能を有効化するまで、{extension}を有効化できません。: {extensions}"
       not_found_message: 要求されたリソースが見つかりませんでした。
+      payload_too_large_message: 要求のデータサイズが大きすぎます。
       permission_denied_message: この操作を実行する権限がありません。
       rate_limit_exceeded_message: 操作が早すぎます。数秒後に再度お試しください。
+      render_failed_message: このコンテンツを表示する際にエラーが発生しました。あなたがユーザーの場合は、時間をおいて再度お試しください。管理者の方はFlarumのログファイルから詳細情報を確認してください。
 
     # These translations are used in the loading indicator component.
     loading_indicator:
@@ -546,6 +551,25 @@ core:
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
+    # Translations in this namespace are displayed by the basic HTML admin index.
+    admin:
+      extensions:
+        caption: => core.ref.extensions
+        disable: 無効
+        empty: No installed extensions
+        enable: 有効
+        name: 拡張機能名
+        package_name: パッケージ名
+        version: バージョン
+      info:
+        caption: アプリケーション情報
+      title: 管理
+
+    # Translations in this namespace are displayed by the Confirm Email interface.
+    confirm_email:
+      submit_button: => core.ref.confirm_email
+      text: 以下のボタンをクリックしてアカウントのメールアドレスを確定してください。
+      title: => core.ref.confirm_email
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
@@ -654,6 +678,7 @@ core:
     change_password: パスワードの変更
     color: 色                                 # Referenced by flarum-tags.yml
     confirm_password: パスワード（確認）
+    confirm_email: 確認メール
     confirmation_email_sent: "確認メールを{email}へ送信しました。もしメールが届いていない場合は、迷惑メールフォルダを確認してください。"
     custom_footer_text: ページ最下部に表示するHTMLを記述します
     custom_footer_title: カスタムフッターの編集
@@ -665,6 +690,7 @@ core:
     edit: 編集
     edit_user: ユーザーの編集
     email: メールアドレス
+    extensions: 拡張機能
     icon: アイコン
     icon_text: "<a>FontAwesome</a> のアイコンクラスの名前を入力してください。<code>fas fa-</code>といった接頭辞も<em>含めてください</em>。"
     load_more: 更に読み込む
