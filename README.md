@@ -27,19 +27,54 @@ composer update flarum-lang/japanese
 composer remove flarum-lang/japanese
 ```
 
-## 対応する拡張機能 | Supported extensions
-- [fof/user-directory](https://github.com/FriendsOfFlarum/user-directory)
-- [michaelbelgium/flarum-discussion-views](https://github.com/MichaelBelgium/flarum-discussion-views)
-- [fof/best-answer](https://github.com/FriendsOfFlarum/best-answer)
-- [fof/polls](https://github.com/FriendsOfFlarum/polls)
-- [fof/byobu:*](https://github.com/FriendsOfFlarum/byobu)
-- [fof/upload](http://github.com/FriendsOfFlarum/upload)
-- [fof/links](https://github.com/FriendsOfFlarum/links)
-- [fof/follow-tags](https://github.com/FriendsOfFlarum/follow-tags)
-- [fof/formatting](https://github.com/FriendsOfFlarum/formatting)
-- [fof/pages](https://github.com/FriendsOfFlarum/pages)
-- [fof/user-bio](https://github.com/FriendsOfFlarum/user-bio)
-- [acpl/mobile-tab](https://github.com/android-com-pl/mobile-tab)
+
+## Translation status for Flarum core
+
+| Component | Status |
+| --- | --- |
+| [Core](https://github.com/flarum/flarum-core) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ja/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/ja/) |
+| Validation | [![Translation status](https://weblate.rob006.net/widgets/flarum/ja/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/ja/) |
+
+
+## Translation status for official extensions
+
+<!-- flarum-extensions-list-start -->
+
+| Extension | Status |
+| --- | --- |
+
+<!-- flarum-extensions-list-stop -->
+
+
+## Translation status for Friends of Flarum extensions
+
+<!-- fof-extensions-list-start -->
+
+| Extension | Status |
+| --- | --- |
+
+<!-- fof-extensions-list-stop -->
+
+
+## Translation status for community extensions
+
+<!-- various-extensions-list-start -->
+
+| Extension | Status |
+| --- | --- |
+
+<!-- various-extensions-list-stop -->
+
+
+## Translation status for premium extensions
+
+<!-- premium-extensions-list-start -->
+
+| Extension | Status |
+| --- | --- |
+
+<!-- premium-extensions-list-stop -->
+
 
 ## リンク | Links
 - [Packagist](https://packagist.org/packages/takumi9942/flarum-ext-japanese)
