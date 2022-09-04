@@ -14,11 +14,11 @@ Go to Extensions page of the admin interface and enable ``Japanese``.
 3. 管理画面の基本ページからデフォルトの言語を``Japanese``に変更します。<br>
 Go to Basics page of the admin interface and change default language to ``Japanese``.
 
-## アップデートと削除方法 | Updating and Uninstall
+## アップデートと削除方法 | Update and Uninstall
 Flarumがインストールされているディレクトリで以下のコマンドを実行してください。<br>
 Run the following command in the location where Flarum is installed.
 
-- アップデート | Updating
+- アップデート | Update
 ```
 composer update flarum-lang/japanese
 ```
@@ -27,8 +27,13 @@ composer update flarum-lang/japanese
 composer remove flarum-lang/japanese
 ```
 
+## :warning: Weblateとの統合について | About integration with Weblate
+このリポジトリは[Weblate](https://weblate.rob006.net/languages/ja/flarum/)と連携しましたが、Weblateの翻訳には不自然な文言が数多く存在するため現在レビュー中です。
+レビューが完了するまで、Weblateに登録された翻訳は言語パックへ反映されませんので、ご注意ください。
 
-## Translation status for Flarum core
+This repository was integrated with [Weblate](https://weblate.rob006.net/languages/ja/flarum/). However translations in the Weblate includes some weird sentences, so I'm currently reviewing all of them. Please note that Weblate translations will not be released until the completion of review.
+
+## 翻訳状況(Flarum core) | Translation status for Flarum core
 
 | Component | Status |
 | --- | --- |
@@ -36,7 +41,7 @@ composer remove flarum-lang/japanese
 | Validation | [![Translation status](https://weblate.rob006.net/widgets/flarum/ja/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/ja/) |
 
 
-## Translation status for official extensions
+## 翻訳状況(公式拡張機能) | Translation status for official extensions
 
 <!-- flarum-extensions-list-start -->
 
@@ -46,7 +51,7 @@ composer remove flarum-lang/japanese
 <!-- flarum-extensions-list-stop -->
 
 
-## Translation status for Friends of Flarum extensions
+## 翻訳状況(FoF拡張機能) | Translation status for Friends of Flarum extensions
 
 <!-- fof-extensions-list-start -->
 
@@ -56,7 +61,7 @@ composer remove flarum-lang/japanese
 <!-- fof-extensions-list-stop -->
 
 
-## Translation status for community extensions
+## 翻訳状況(コミュニティ拡張機能) | Translation status for community extensions
 
 <!-- various-extensions-list-start -->
 
@@ -66,7 +71,7 @@ composer remove flarum-lang/japanese
 <!-- various-extensions-list-stop -->
 
 
-## Translation status for premium extensions
+## 翻訳状況(プレミアム拡張機能) | Translation status for premium extensions
 
 <!-- premium-extensions-list-start -->
 
