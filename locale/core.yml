@@ -7,6 +7,8 @@ core:
     appearance:
       colored_header_label: 色付きのヘッダー
       colors_heading: 色
+      colors_primary_label: メインカラー
+      colors_secondary_label: サブカラー
       colors_text: フォーラムに使用する色を2つ選択してください。1つ目はハイライトに使用され、2つ目は背景色に使用されます。
       custom_footer_heading: カスタムフッター
       custom_footer_text: '=> core.ref.custom_footer_text'
@@ -45,8 +47,12 @@ core:
     dashboard:
       clear_cache_button: キャッシュのクリア
       description: フォーラムの概況を確認します。
+      io_error_message: ファイルシステムに書き込むことが出来ませんでした。ファイルシステムの権限を確認して再度実行するか、コマンドラインからの実行をお試しください。
       title: ダッシュボード
       tools_button: ツール
+    debug-warning:
+      detail: "When <code>デバッグ</code>モードが有効化されている場合、Flarumは<code>JavaScript</code> と <code>CSS</code> のリビルドをリクエスト毎に実行します。また、データベースシークレットや環境変数などのデータが漏洩する可能性があります。\n\n運用環境においては、<code>config.php</code>を開いて<code>debug</code>を無効化することを強く推奨します。詳細は<link>Flarum docs</link>をご確認ください。\n"
+      label: デバッグモードが有効
     edit_css:
       customize_text: Less/CSSコードを使用して<a>標準のスタイル</a>を上書きすることで、Flarumの見た目をカスタマイズできます。
       submit_button: '=> core.ref.save_changes'
@@ -90,14 +96,14 @@ core:
       send_test_mail_button: 送信
       send_test_mail_heading: テストメールを送信
       send_test_mail_success: テストメールは正常に送信されました!
-      send_test_mail_text: '上記の設定を使用して、あなたのメールアドレスにメールを送信します。({email})'
+      send_test_mail_text: '上記の設定を使用して、あなたのメールアドレスにメールを送信します({email})。'
       smtp_heading: SMTP設定
       title: '=> core.ref.email'
     extension:
       configure_scopes: 権限設定
       confirm_purge: 初期化は、この拡張機能に関連するすべてのデータベースとファイルを削除します。拡張機能自体は削除されません。拡張機能の削除はComposerで行う必要があります。本当に続行しますか？
       disabled: 無効
-      enable_to_see: '設定を確認, 変更するには拡張機能を有効化してください'
+      enable_to_see: 設定を確認、変更するには拡張機能を有効化してください。
       enabled: 有効
       info_links:
         discuss: チャット
@@ -106,8 +112,8 @@ core:
         source: ソースコード
         support: サポート
         website: Webサイト
-      no_permissions: この拡張機能には権限がありません
-      no_settings: この拡張機能には設定がありません
+      no_permissions: この拡張機能には権限がありません。
+      no_settings: この拡張機能には設定がありません。
       open_modal: 設定を開く
       permissions_title: 権限
       purge_button: 初期化
@@ -152,7 +158,7 @@ core:
       delete_discussions_label: スレッドの削除
       delete_posts_forever_label: 投稿の完全削除
       delete_posts_label: 投稿の削除
-      description: 各グループのユーザーが閲覧出来る範囲と操作可能な範囲を設定します
+      description: 各グループのユーザーが閲覧出来る範囲と操作可能な範囲を設定します。
       edit_posts_label: 投稿の編集
       edit_users_credentials_label: ユーザーの認証情報の編集
       edit_users_groups_label: ユーザーのグループの編集
@@ -230,7 +236,7 @@ core:
       body: "{username}さん、こんにちは!\n\n{forum}のアカウントに対してパスワードの再設定申請がありました。\n\nもしあなたが申請したのであれば、以下のリンクからパスワードを再設定してください。:\n{url}\n\nパスワードを変更したくない場合は、このメールを無視してください。変更は行われません。\n"
       subject: '=> core.ref.reset_your_password'
     send_test:
-      body: "{username}さん、こんにちは!\nこのメールは、Flarumのメール設定が正しく動作していることを確認するためのものです。\nもしあなたがこのメールを送信した場合、メール設定は正しく動作していることを意味します。\nもしこのメールに覚えがない場合は、このメールを無視してください。\n"
+      body: "{username}さん、こんにちは!\n\nこのメールは、Flarumのメール設定が正しく動作していることを確認するためのものです。\nもしあなたがこのメールを送信した場合、メール設定は正しく動作していることを意味します。\nもしこのメールに覚えがない場合は、このメールを無視してください。\n"
       subject: 'Flarum テストメール'
   forum:
     change_email:
@@ -278,14 +284,14 @@ core:
       rename_button: '=> core.ref.rename'
       reply_button: '=> core.ref.reply'
       restore_button: '=> core.ref.restore'
-      toggle_dropdown_accessible_label: 'Toggle discussion actions dropdown menu'
+      toggle_dropdown_accessible_label: スレッド操作ドロップダウンメニューの切り替え
     discussion_list:
-      empty_text: 一致するスレッドが見つかりません
+      empty_text: 一致するスレッドが見つかりません。
       load_more_button: '=> core.ref.load_more'
       replied_text: '{username} が {ago} に返信しました'
       started_text: '{username} が {ago} に作成しました'
       total_replies_a11y_label: '{count, plural, one {# reply} other {# replies}}'
-      unread_replies_a11y_label: '{count, plural, one {# unread reply} other {# unread replies}}. 未読の {count, plural, one {reply} other {replies}} を既読にする'
+      unread_replies_a11y_label: '{count, plural, one {# unread reply} other {# unread replies}}. 未読の {count, plural, one {reply} other {replies}} を既読にする。'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
@@ -304,7 +310,7 @@ core:
       search_clear_button_accessible_label: 検索ワードの削除
       search_placeholder: フォーラムを検索
       search_role_label: フォーラムを検索
-      session_dropdown_accessible_label: 'Toggle session options dropdown menu'
+      session_dropdown_accessible_label: セッション設定ドロップダウンメニューの切り替え
       settings_button: '=> core.ref.settings'
       sign_up_link: '=> core.ref.sign_up'
     index:
@@ -315,7 +321,7 @@ core:
       meta_title_text: '=> core.ref.all_discussions'
       refresh_tooltip: 更新
       start_discussion_button: '=> core.ref.start_a_discussion'
-      toggle_sidenav_dropdown_accessible_label: 'Toggle navigation dropdown menu'
+      toggle_sidenav_dropdown_accessible_label: ナビゲーションドロップダウンメニューの切り替え
     index_sort:
       latest_button: 更新日時：新しい順
       newest_button: 作成日時：新しい順
@@ -325,7 +331,7 @@ core:
       top_button: 投稿数：多い順
     log_in:
       forgot_password_link: パスワードをお忘れですか？
-      invalid_login_message: ログイン情報が間違っています
+      invalid_login_message: ログイン情報が間違っています。
       password_placeholder: '=> core.ref.password'
       remember_me_label: ログインを維持する
       sign_up_text: 'アカウントを持っていませんか? <a>新規登録</a>'
@@ -333,6 +339,8 @@ core:
       title: '=> core.ref.log_in'
       username_or_email_placeholder: ユーザー名もしくはメールアドレス
     notifications:
+      delete_all_confirm: すべての通知を削除しますか？この操作は取り消しできません
+      delete_all_tooltip: すべての通知を削除
       discussion_renamed_text: '{username} がタイトルを変更しました'
       empty_text: 通知なし
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
@@ -351,7 +359,7 @@ core:
       edit_button: '=> core.ref.edit'
       hide_confirmation: この投稿を削除しますか？
       restore_button: '=> core.ref.restore'
-      toggle_dropdown_accessible_label: 'Toggle post controls dropdown menu'
+      toggle_dropdown_accessible_label: 投稿操作ドロップダウンメニューの切り替え
     post_scrubber:
       now_link: 最新の投稿
       original_post_link: 最初の投稿
@@ -374,6 +382,7 @@ core:
       account_heading: アカウント
       change_email_button: '=> core.ref.change_email'
       change_password_button: '=> core.ref.change_password'
+      notification_checkbox_a11y_label_template: '"{description}"通知を{method}を通して受け取る'
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
       notify_by_web_heading: Web
@@ -398,7 +407,7 @@ core:
       in_discussion_text: 'スレッド：{discussion}'
       joined_date_text: '{ago}に参加'
       online_text: オンライン
-      posts_empty_text: 投稿はありません
+      posts_empty_text: 投稿はありません。
       posts_link: '=> core.ref.posts'
       posts_load_more_button: '=> core.ref.load_more'
       settings_link: '=> core.ref.settings'
@@ -406,10 +415,10 @@ core:
       button: 操作
       delete_button: '=> core.ref.delete'
       delete_confirmation: 'このユーザーを削除してもよろしいですか？ このユーザーによる投稿は削除されません。'
-      delete_error_message: 'ユーザー <i>{username} ({email})</i> の削除に失敗しました。'
-      delete_success_message: 'ユーザー <i>{username} ({email})</i> は削除されました。'
+      delete_error_message: 'ユーザー <i>{username} ({email})</i> の削除に失敗しました'
+      delete_success_message: 'ユーザー <i>{username} ({email})</i> は削除されました'
       edit_button: '=> core.ref.edit'
-      toggle_dropdown_accessible_label: 'Toggle user controls dropdown menu'
+      toggle_dropdown_accessible_label: ユーザー操作ドロップダウンメニューの切り替え
     user_email_confirmation:
       alert_message: '=> core.ref.confirmation_email_sent'
       resend_button: 確認メールを再送信
@@ -432,7 +441,7 @@ core:
       hidden_tooltip: 非表示
     debug_button: デバッグ
     dropdown:
-      toggle_dropdown_accessible_label: 'Toggle dropdown menu'
+      toggle_dropdown_accessible_label: ドロップダウンメニューの切り替え
     edit_user:
       activate_button: ユーザーを有効化
       email_heading: '=> core.ref.email'
@@ -482,9 +491,9 @@ core:
     confirm_email: 確認メール
     confirm_password: パスワード（確認）
     confirmation_email_sent: '確認メールを{email}へ送信しました。もしメールが届いていない場合は、迷惑メールフォルダを確認してください。'
-    custom_footer_text: ページ最下部に表示するHTMLを記述します
+    custom_footer_text: ページ最下部に表示するHTMLを記述します。
     custom_footer_title: カスタムフッターの編集
-    custom_header_text: ページ最上部に表示するHTMLを記述します
+    custom_header_text: ページ最上部に表示するHTMLを記述します。
     custom_header_title: カスタムヘッダーの編集
     delete: 削除
     delete_forever: 完全に削除
@@ -526,7 +535,7 @@ core:
       extensions:
         caption: '=> core.ref.extensions'
         disable: 無効
-        empty: 'No installed extensions'
+        empty: インストールされた拡張機能はありません
         enable: 有効
         name: 拡張機能名
         package_name: パッケージ名
