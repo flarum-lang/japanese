@@ -3,9 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 validation:
-  accepted: ':attribute が未承認です'
-  active_url: ':attribute は有効なURLではありません'
-  after: ':attribute は :date より後の日付にしてください'
+  accepted: ':attribute が未承認です。'
+  active_url: ':attribute は有効なURLではありません。'
+  after: ':attribute は :date より後の日付にしてください。'
   after_or_equal: ':attribute は :date 以降の日付にしてください'
   alpha: ':attribute にはアルファベットのみが利用できます'
   alpha_dash: ':attribute には英数字とハイフン、アンダーバーのみが利用できます'
@@ -85,11 +85,15 @@ validation:
     file: ':attribute は :min KB以上のファイルのみ有効です'
     numeric: ':attribute は :min 以上のみ有効です'
     string: ':attribute は :min 文字以上のみ有効です'
+  multiple_of: ':attribute は :value の倍数のみ有効です。'
   not_in: '選択された :attribute は無効な値です'
   not_regex: ':attribute 形式が不正です'
   numeric: ':attribute は数字のみ有効です'
   password: パスワードが正しくありません
   present: ':attribute が存在しません'
+  prohibited: ':attribute は入力できません。'
+  prohibited_if: ':attribute は :other が :value の場合は入力できません。'
+  prohibited_unless: ':attribute は :other が :values でない場合は入力できません。'
   regex: ':attribute 無効な値です'
   required: ':attribute は必須です'
   required_if: ':attribute は :other が :value には必須です'
