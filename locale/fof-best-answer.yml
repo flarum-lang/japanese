@@ -4,11 +4,18 @@
 
 fof-best-answer:
   admin:
+    edit_tag:
+      qna_label: このタグでベストアンサーを有効にする
+      reminders: このタグのディスカッションにベストアンサーを設定するためのリマインダーを送信する
     permissions:
       best_answer: 'ベストアンサーの選択 (自分のスレッド)'
       best_answer_not_own_discussion: 'ベストアンサーの選択 (自分以外のスレッド)'
     settings:
       allow_select_own_post: ユーザーが自分自身の投稿を選ぶことを許可する
+      allow_select_own_post_help: OPが自分の投稿をベストアンサーとして選択できるようにする
+      documentation: ドキュメント
+      enable_all_tags_button: ベストアンサーを全てのタグで有効にする
+      enable_all_tags_reminder_button: ベストアンサーリマインダーを全てのタグで有効にする
       label:
         advanced: 詳細設定
         general: 基本設定
@@ -17,8 +24,11 @@ fof-best-answer:
       schedule_log_output: スケジューラの出力をログストレージに保存する
       schedule_on_one_server: 'タスクスケジューラに ''onOneServer()'' ディレクティブを使用する (Redis/Memcache が必要です)'
       schedule_stop_overnight: '深夜帯はリマインダースケジューラを停止する (サーバー時間で午後9時 ~ 午前8時)'
+      schedule_stop_overnight_help: 'サーバー時間 午後9時〜午前8時'
       select_best_answer_reminder_days: ベストアンサーを選ぶように、X日後に通知する
+      show_filter_label: ベストアンサーフィルターのドロップダウンを表示
       use_alt_ui: '代替レイアウトを使用する (投稿画面のフッターにボタンを置く)'
+      use_alt_ui_help: 投稿フッターでベストアンサーのコントロール
   email:
     body:
       awarded: "{recipient_display_name}さん、こんにちは。\n{actor_display_name}さんが、'{discussion_title}'のスレッドにおいて、あなたの投稿をベストアンサーに選びました。ご協力ありがとうございます。\n内容はこちらから確認できます: {discussion_url}\n"
@@ -32,8 +42,20 @@ fof-best-answer:
     answered_badge: 解決済み
     best_answer_button: ベストアンサー
     best_answer_label: '<a>{username}</a> が {time_set} に選びました'
+    composer:
+      titlePlaceholder: 質問のタイトル
     errors:
       mismatch: 選択された投稿がこのスレッドに存在しません。
+    filter:
+      accessible_label: 解決済み/未解決の選択
+      all_label: 全ての質問
+      solved_label: 解決済みの質問
+      unsolved_label: 未解決の質問
+    index:
+      ask_question: 質問する
+      cannot_ask_question: 質問ができません
+      solved_link: 解決済みのディスカッション
+      unsolved_link: 未解決のディスカッション
     notification:
       awarded: 'あなたの投稿が{username}によってベストアンサーに選ばれました'
       best_answer_in_discussion: '{username} がこのスレッドのベストアンサーを選びました'

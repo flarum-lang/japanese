@@ -5,8 +5,12 @@
 flarum-akismet:
   admin:
     akismet_settings:
-      api_key_label: 'API Key'
+      api_key_label: APIキー
+      delete_blatant_spam_help: Akismetがあからさまなスパムと判断した場合、フラグを立てる代わりに、自動的に投稿を削除
+      delete_blatant_spam_label: あからさまなスパムを自動削除
       title: 'Akismet 設定'
+    permissions:
+      bypass_akismet: Akismetをバイパス
   forum:
     post:
       akismet_flagged_text: Akismetがスパムと判断しました
