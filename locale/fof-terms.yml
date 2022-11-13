@@ -5,34 +5,34 @@
 fof-terms:
   admin:
     buttons:
-      add-policy: 用語を追加する
-      delete-policy: 削除句
+      add-policy: ポリシーを追加する
+      delete-policy: ポリシーを削除
       edit-policy: 用語を編集する
       new-policy: 新しい条項
-      save-policy: 条件を保存
-      set-to-now: 今
+      save-policy: ポリシーを保存
+      set-to-now: 現在時刻を設定
     messages:
-      delete-policy-confirmation: "これにより、用語 {name} および関連する受け入れ日がデータベースから完全に削除されます。 法的な理由で必要な場合は、これらの日付を必ずバックアップしてください。 この句を削除してもよろしいですか？\n"
+      delete-policy-confirmation: "これにより、ポリシー {name} および関連する受け入れ日がデータベースから完全に削除されます。 法的な理由で必要な場合は、これらの日付を必ずバックアップしてください。 この句を削除してもよろしいですか？\n"
     permissions:
-      export-policies: すべてのユーザーと利用規約情報をエクスポートします
+      export-policies: すべてのユーザーとポリシー情報をエクスポートします
       postpone-policies-accept: 新しい利用規約の遅延受諾を許可する
-      see-user-policies-state: ユーザーの利用規約の表示
+      see-user-policies-state: ユーザーのポリシー状況を確認
     policies:
       export-url: データをエクスポートする
       export-url-help: "「すべての条件データのエクスポート」権限を持つユーザーは、上のボタンをクリックして、条件に同意するユーザーのリストをダウンロードできます。 このオプションの詳細については、<a>プラグインwiki</a> をご覧ください。\n"
-      name: お名前
+      name: 名前
       name-help: この名前はチェックボックスの横に表示され、更新ダイアログのタイトルとして使用されます。
       terms-updated-at: 更新日
       terms-updated-at-help: "利用規約が最後に更新されました。 この値を設定するには、条件に同意したユーザーが再度同意する必要があります。 経過時間である必要があります（そうでない場合、ユーザーは日付を受け入れてダイアログをスキップできません）。\n"
       terms-updated-at-placeholder: 'YYYY-MM-DD (hh:mm:ss)'
-      update-message: 更新メッセージ
+      update-message: メッセージを更新
       update-message-help: 最新の条件に同意していないユーザーへのメッセージ。
-      url: リンク
-      url-help: 利用規約のページリンクを読み、クリックして新しいページで開くことができます。
+      url: URL
+      url-help: ポリシーのページURLです。クリックして新しいタブで開くことができます。
     settings:
       field:
         date-format: 日付形式
-        date-format-help: '有効な <a>Moment.js</a> 形式を使用できますが、デフォルトの形式は空白のままにします。'
+        date-format-help: '有効な <a>Day.js</a> 形式を使用できますが、デフォルトの形式は空白のままにします。'
         hide-updated-at: 更新がある場合、利用規約の更新日を表示しない
         signup-legal-text: 登録フォームの追加テキスト
       title: 利用規約の設定
@@ -40,18 +40,18 @@ fof-terms:
       policies: 規約
   forum:
     accept-modal:
-      accept: 確認する
-      close: このダイアログを閉じることができます
-      i-accept: '新しい利用規約 <a>{policy}</a> に同意します'
+      accept: 確認
+      close: 承諾いただきありがとうございます、フォーラムへ戻ることができます
+      i-accept: '新しい<a>{policy}</a>に同意します'
       title: 利用規約の更新
       updated-at: '利用規約は {date} に更新されました'
       updated-recently: 前回のアクセス以降、利用規約が更新されました
     signup:
-      i-accept: '利用規約に同意します <a>{policy}</a>'
-      must-accept: '利用規約に同意する必要があります {policy}'
+      i-accept: '<a>{policy}</a>に同意します'
+      must-accept: '{policy}に同意する必要があります。'
     state-modal:
       accepted-at: '{date} に承認されました'
-      not-accepted: 受け入れない
+      not-accepted: 承諾していない
       title: 'ユーザー {username} 利用規約の承認ステータス'
     update-alert:
       can-accept-message: 利用規約を最近更新しました。このサイトを引き続き使用するには同意する必要があります。
