@@ -5,7 +5,7 @@
 fof-recaptcha:
   admin:
     permissions:
-      post_without_captcha: Captcha無しで投稿やディスカッションを作成
+      post_without_captcha: Captcha無しで投稿やスレッドを作成
     settings:
       help_text: '<a>ここで</a> Google reCAPTCHA 証明書を取得する。'
       secret_key_label: シークレットキー
