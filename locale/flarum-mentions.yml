@@ -4,27 +4,35 @@
 
 flarum-mentions:
   admin:
+    permissions:
+      mention_groups_label: グループをメンション
     settings:
       allow_username_format_label: 'ユーザー名でのメンションを許可する (@Username)'
       allow_username_format_text: "現在、ユーザーをメンションする時の構文は @\"表示名\"#ID です。\nこの設定は、古い構文である @ユーザー名 を許可しますが、保存時に上記の新しい構文に変換されます。\n"
   email:
+    group_mentioned:
+      body: "{recipient_display_name}さん、こんにちは!\n\n{mentioner_display_name} さんが {title} において、あなたが所属するグループをメンションしました。\n\n{url}\n\n---\n\n{content}\n"
+      subject: '{mentioner_display_name} さんが {title} において、あなたが所属するグループをメンションしました'
     post_mentioned:
-      body: "{recipient_display_name}さん、こんにちは!\n{replier_display_name} さんが {title} において、あなたの投稿 (#{post_number}) に対して返信しました。\n{url}\n---\n{content}\n"
+      body: "{recipient_display_name}さん、こんにちは!\n\n{replier_display_name} さんが {title} において、あなたの投稿 (#{post_number}) に対して返信しました。\n\n{url}\n\n---\n\n{content}\n"
       subject: '{replier_display_name} さんが {title} において、あなたの投稿に返信しました'
     user_mentioned:
-      body: "{recipient_display_name}さん、こんにちは!\n{mentioner_display_name} さんが {title} において、あなたにメンションしました。\n{url}\n---\n{content}\n"
-      subject: '{mentioner_display_name} さんが {title} において、あなたにメンションしました。'
+      body: "{recipient_display_name}さん、こんにちは!\n\n{mentioner_display_name} さんが {title} において、あなたにメンションしました。\n\n{url}\n\n---\n\n{content}\n"
+      subject: '{mentioner_display_name} さんが {title} において、あなたにメンションしました'
   forum:
     composer:
-      mention_tooltip: ユーザーもしくは投稿を指定します
+      mention_tooltip: 'ユーザー, 投稿, グループをメンション'
       reply_to_post_text: '#{number}へ返信'
+    group_mention:
+      deleted_text: '[不明なグループ]'
     notifications:
+      group_mentioned_text: '{username}があなたの所属するグループをメンションしました'
       others_text: '=> core.ref.some_others'
       post_mentioned_text: '{username} があなたの投稿に返信しました'
       user_mentioned_text: '{username} があなたをメンションしました'
     post:
-      mentioned_by_self_text: '{users} がこの投稿に返信しました'
-      mentioned_by_text: '{users} がこの投稿に返信しました'
+      mentioned_by_self_text: '{users} がこの投稿に返信しました。'
+      mentioned_by_text: '{users} がこの投稿に返信しました。'
       others_text: '=> core.ref.some_others'
       quote_button: 引用
       reply_link: '=> core.ref.reply'
@@ -32,7 +40,8 @@ flarum-mentions:
     post_mention:
       deleted_text: '[不明]'
     settings:
+      notify_group_mentioned_label: 誰かがあなたの所属するグループにメンションした時
       notify_post_mentioned_label: 誰かがあなたの投稿に返信した時
-      notify_user_mentioned_label: 誰かがあなたについての投稿をした時
+      notify_user_mentioned_label: 誰かがあなたをメンションした時
     user:
       mentions_link: メンション
