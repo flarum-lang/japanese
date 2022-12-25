@@ -5,12 +5,15 @@
 flarum-nicknames:
   admin:
     permissions:
-      edit_own_nickname_label: 自分のニックネームの編集
+      edit_own_nickname_label: 自分のニックネームを編集
     settings:
       max_label: ニックネームの最大文字数
       min_label: ニックネームの最小文字数
+      random_username_help: '登録時に入力した`ユーザー名`を隠し、代わりにランダムな数字を使用します。`ニックネーム`が必須となります。また、"登録時にニックネーム設定を許可する"が有効化されている必要があります。'
+      random_username_label: ユーザー名をランダム化
       regex_label: 検証用の正規表現
-      unique_label: 他人と重複したニックネームを拒否しますか？
+      set_on_registration_label: 登録時にニックネーム設定を許可する
+      unique_label: 他人と重複したニックネームを拒否
     wrong_driver: 'この拡張機能が動作するためには、<a><strong>基本設定</strong></a>の"ユーザーの表示名"において、"ニックネーム"を選択する必要があります。'
   api:
     invalid_nickname_message: ニックネームの形式が正しくありません。ニックネームのルールに関する詳しい情報は管理者へお問い合わせください。
@@ -20,8 +23,11 @@ flarum-nicknames:
       title: '=> flarum-nicknames.ref.change_nickname'
     edit_user:
       nicknames_heading: '=> flarum-nicknames.ref.change_nickname'
-      nicknames_text: ニックネーム
+      nicknames_text: '=> flarum-nicknames.ref.nickname'
     settings:
       change_nickname_button: '=> flarum-nicknames.ref.change_nickname'
+    sign_up:
+      nickname_placeholder: '=> flarum-nicknames.ref.nickname'
   ref:
     change_nickname: ニックネームの変更
+    nickname: ニックネーム
