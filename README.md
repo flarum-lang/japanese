@@ -1,7 +1,8 @@
 # Japanese Language Pack for Flarum
 [![CI](https://github.com/flarum-lang/japanese/workflows/CI/badge.svg)](https://github.com/flarum-lang/japanese/actions?query=workflow%3ACI)<br>
 Japanese language pack to localize the Flarum.
-## インストール方法 | Installation
+
+## :inbox_tray: インストール方法 | Installation
 1. Flarumがインストールされているディレクトリで以下のコマンドを実行してください。<br>
 Run the following command in the location where Flarum is installed.
 ```
@@ -14,7 +15,7 @@ Go to Extensions page of the admin interface and enable ``Japanese``.
 3. 管理画面の基本ページからデフォルトの言語を``Japanese``に変更します。<br>
 Go to Basics page of the admin interface and change default language to ``Japanese``.
 
-## アップデートと削除方法 | Update and Uninstall
+## :recycle: アップデートと削除方法 | Update and Uninstall
 Flarumがインストールされているディレクトリで以下のコマンドを実行してください。<br>
 Run the following command in the location where Flarum is installed.
 
@@ -27,13 +28,13 @@ composer update flarum-lang/japanese
 composer remove flarum-lang/japanese
 ```
 
-## :warning: Weblateとの統合について | About integration with Weblate
-このリポジトリは[Weblate](https://weblate.rob006.net/languages/ja/flarum/)と連携しましたが、Weblateの翻訳には不自然な文言が数多く存在するため現在レビュー中です。
-レビューが完了するまで、Weblateに登録された翻訳は言語パックへ反映されませんので、ご注意ください。
+## :tada: 翻訳への参加方法 | Contributing
+このリポジトリは[@rob006](https://github.com/rob006)さんが運営する[Weblate](https://weblate.rob006.net/languages/ja/flarum/)と連携しました！！
+翻訳作業に参加されたい方は[このページ](https://weblate.rob006.net/languages/ja/flarum/)で編集をお願いします！<br>
+This repository was integrated with [Weblate](https://weblate.rob006.net/languages/ja/flarum/) by [rob006](https://github.com/rob006)!!
+You can contribute to the language pack on [this page](https://weblate.rob006.net/languages/ja/flarum/).
 
-This repository was integrated with [Weblate](https://weblate.rob006.net/languages/ja/flarum/). However translations in the Weblate includes some weird sentences, so I'm currently reviewing all of them. Please note that Weblate translations will not be released until the completion of review.
-
-## 翻訳状況(Flarum core) | Translation status for Flarum core
+## :bar_chart: 翻訳状況(Flarum core) | Translation status for Flarum core
 
 | Component | Status |
 | --- | --- |
@@ -41,7 +42,7 @@ This repository was integrated with [Weblate](https://weblate.rob006.net/languag
 | Validation | [![Translation status](https://weblate.rob006.net/widgets/flarum/ja/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/ja/) |
 
 
-## 翻訳状況(公式拡張機能) | Translation status for official extensions
+## :bar_chart: 翻訳状況(公式拡張機能) | Translation status for official extensions
 
 <!-- flarum-extensions-list-start -->
 
@@ -66,8 +67,9 @@ This repository was integrated with [Weblate](https://weblate.rob006.net/languag
 <!-- flarum-extensions-list-stop -->
 
 
-## 翻訳状況(FoF拡張機能) | Translation status for Friends of Flarum extensions
-
+## :bar_chart: 翻訳状況(FoF拡張機能) | Translation status for Friends of Flarum extensions
+<details>
+<summary>表示するにはここをクリック | Click here to open</summary>
 <!-- fof-extensions-list-start -->
 
 | Extension | Status |
@@ -123,10 +125,11 @@ This repository was integrated with [Weblate](https://weblate.rob006.net/languag
 | [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ja/fof-webhooks/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-webhooks/ja/) |
 
 <!-- fof-extensions-list-stop -->
+</details>
 
-
-## 翻訳状況(コミュニティ拡張機能) | Translation status for community extensions
-
+## :bar_chart: 翻訳状況(コミュニティ拡張機能) | Translation status for community extensions
+<details>
+<summary>表示するにはここをクリック | Click here to open</summary>
 <!-- various-extensions-list-start -->
 
 | Extension | Status |
@@ -168,17 +171,18 @@ This repository was integrated with [Weblate](https://weblate.rob006.net/languag
 | [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo) | [![Translation status](https://weblate.rob006.net/widgets/flarum/ja/v17development-seo/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-seo/ja/) |
 
 <!-- various-extensions-list-stop -->
+</details>
 
-
-## 翻訳状況(プレミアム拡張機能) | Translation status for premium extensions
-
+## :bar_chart: 翻訳状況(プレミアム拡張機能) | Translation status for premium extensions
+<details>
+<summary>表示するにはここをクリック | Click here to open</summary>
 <!-- premium-extensions-list-start -->
 
 | Extension | Status |
 | --- | --- |
 
 <!-- premium-extensions-list-stop -->
+</details>
 
-
-## リンク | Links
+## :link: リンク | Links
 - [Packagist](https://packagist.org/packages/takumi9942/flarum-ext-japanese)
