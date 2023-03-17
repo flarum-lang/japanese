@@ -27,6 +27,8 @@ flarum-tags:
       bypass_tag_counts_label: タグの必要数設定を無視
       restrict_by_tag_heading: タグ毎の制限
       tag_discussions_label: タグの変更
+    settings:
+      button_text: '=> flarum-tags.ref.choose_tags'
     tag_settings:
       range_separator_text: ' ～ '
       required_primary_heading: プライマリタグの必要数
@@ -53,7 +55,7 @@ flarum-tags:
       submit_button: '=> core.ref.okay'
       title: スレッドに付けるタグを選択
     composer_discussion:
-      choose_tags_link: タグを選択
+      choose_tags_link: '=> flarum-tags.ref.choose_tags'
     discussion_controls:
       edit_tags_button: タグの編集
     header:
@@ -63,14 +65,23 @@ flarum-tags:
       tags_link: '=> flarum-tags.ref.tags'
       untagged_link: タグを解除
     post_stream:
-      added_and_removed_tags_text: '{username} が {tagsAdded} を追加し、 {tagsRemoved} を削除しました。'
-      added_tags_text: '{username} が {tagsAdded} を追加しました。'
-      removed_tags_text: '{username} が {tagsRemoved} を削除しました。'
+      added_and_removed_tags_text: '{username} が{time}に {tagsAdded} を追加し、 {tagsRemoved} を削除しました。'
+      added_tags_text: '{username} が{time}に {tagsAdded} を追加しました。'
+      removed_tags_text: '{username} が{time}に {tagsRemoved} を削除しました。'
       tags_text: '{count, plural, one {{tags} タグ} other {{tags} タグ}}'
     tag:
       meta_description_text: '{tag} タグの付いた全てのスレッド'
   lib:
     deleted_tag_text: 削除済み
+    tag_selection_modal:
+      bypass_requirements: タグの要件を無視する
+      choose_primary_placeholder: '{count, plural, one {プライマリタグを選択} other {# 個のプライマリタグを選択}}'
+      choose_secondary_placeholder: '=> flarum-tags.ref.choose_tags_placeholder'
+      choose_tags_placeholder: '=> flarum-tags.ref.choose_tags_placeholder'
+      submit_button: '=> core.ref.okay'
+      title: '=> flarum-tags.ref.choose_tags'
   ref:
+    choose_tags: タグを選択
+    choose_tags_placeholder: '{count, plural, one {1個以上のタグを選択} other {#個以上のタグを選択}}'
     name: 名前
     tags: タグ
