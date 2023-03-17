@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+3.6.2 (2023-03-17)
+------------------
+
+**更新内容**:
+
+* Flarum coreの翻訳を更新.
+
+
+**拡張機能の翻訳を更新**:
+
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/tags`](https://github.com/flarum/tags)
+
+
+全ての更新内容:[v3.6.1...v3.6.2](https://github.com/flarum-lang/japanese/compare/v3.6.1...v3.6.2).
+
+
 3.6.1 (2023-02-19)
 ------------------
 
