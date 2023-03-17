@@ -2,6 +2,15 @@ CHANGELOG
 =========
 
 
+3.6.1 (2023-02-19)
+------------------
+
+Minor improvements.
+
+
+All changes: [v3.6.0...v3.6.1](https://github.com/flarum-lang/japanese/compare/v3.6.0...v3.6.1).
+
+
 3.6.0 (2023-01-22)
 ------------------
 
