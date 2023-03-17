@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+3.6.3 (XXXX-XX-XX)
+------------------
+
+**更新内容**:
+
+* Flarum coreの翻訳を更新.
+
+
+全ての更新内容:[v3.6.2...v3.6.3](https://github.com/flarum-lang/japanese/compare/v3.6.2...v3.6.3).
+
+
 3.6.2 (2023-03-17)
 ------------------
 
