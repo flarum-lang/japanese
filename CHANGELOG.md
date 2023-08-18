@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+3.6.5 (XXXX-XX-XX)
+------------------
+
+**更新内容**:
+
+* Flarum coreの翻訳を更新.
+
+
+**拡張機能の翻訳を更新**:
+
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+
+
+全ての更新内容:[v3.6.4...v3.6.5](https://github.com/flarum-lang/japanese/compare/v3.6.4...v3.6.5).
+
+
 3.6.4 (2023-08-18)
 ------------------
 
