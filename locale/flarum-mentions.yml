@@ -25,12 +25,16 @@ flarum-mentions:
       reply_to_post_text: '#{number}へ返信'
     group_mention:
       deleted_text: '[不明なグループ]'
+    mentioned_by:
+      load_more_button: '=> core.ref.load_more'
+      title: この投稿への返信
     notifications:
       group_mentioned_text: '{username}があなたの所属するグループをメンションしました'
       others_text: '=> core.ref.some_others'
       post_mentioned_text: '{username} があなたの投稿に返信しました'
       user_mentioned_text: '{username} があなたをメンションしました'
     post:
+      mentioned_by_more_text: '{count} 件以上の返信。'
       mentioned_by_self_text: '{users} がこの投稿に返信しました。'
       mentioned_by_text: '{users} がこの投稿に返信しました。'
       others_text: '=> core.ref.some_others'
