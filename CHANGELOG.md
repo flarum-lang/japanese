@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+3.7.0 (XXXX-XX-XX)
+------------------
+
+**新しい拡張機能のサポートを追加**:
+
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+
+
+全ての更新内容:[v3.6.5...v3.7.0](https://github.com/flarum-lang/japanese/compare/v3.6.5...v3.7.0).
+
+
 3.6.5 (2023-10-14)
 ------------------
 
