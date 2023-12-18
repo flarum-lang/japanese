@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-upload/ja/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      uploads:
+        anonymize_description: アップロードされたファイルからユーザー参照情報を削除します。ファイル閲覧可能なユーザーはアクセス可能なままとなります。
+        delete_description: ユーザーがアップロードしたすべてのファイルを削除します。
+        export_description: ユーザーによってアップロードされたすべてのファイル。
 fof-upload:
   admin:
     help_texts:
@@ -57,6 +64,8 @@ fof-upload:
         position: 透かしの位置
         title: 電子透かし
         toggle: 電子透かしの有効化
+    nav:
+      shared-uploads-button: 共有アップロード
     pane:
       description: アップロード機能のセットアップと設定を行います。
       title: アップロード

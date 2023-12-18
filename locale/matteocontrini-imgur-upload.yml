@@ -3,8 +3,18 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 imgur-upload:
+  admin:
+    settings:
+      allow-paste: 画像の貼り付けによるアップロードを許可する
+      embed-type:
+        full-with-link: フルサイズ画像（リンク付き）
+        full-without-link: フルサイズ画像（リンク無し）
+        preview-with-link: プレビュー(1024px)とフルサイズ画像のリンク
+        preview-without-link: プレビュー（リンクなし）
+        title: 埋め込みタイプ
+      hide-markdown-image: Markdownエディタの画像ボタンを隠す
   forum:
     done: 完了！
     error: エラー
     loading: アップロード中...
-    upload: 僕を押すか画像を貼り付けてアップロード！
+    upload: クリックか貼り付けて画像をアップロード
