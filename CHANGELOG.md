@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+3.7.1 (XXXX-XX-XX)
+------------------
+
+**拡張機能の翻訳を更新**:
+
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
+
+
+全ての更新内容:[v3.7.0...v3.7.1](https://github.com/flarum-lang/japanese/compare/v3.7.0...v3.7.1).
+
+
 3.7.0 (2023-12-16)
 ------------------
 
