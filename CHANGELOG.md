@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+3.8.0 (2023-12-28)
+------------------
+
+**新しい拡張機能のサポートを追加**:
+
+* [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
+
+
+**拡張機能の翻訳を更新**:
+
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+
+
+全ての更新内容:[v3.7.1...v3.8.0](https://github.com/flarum-lang/japanese/compare/v3.7.1...v3.8.0).
+
+
 3.7.1 (2023-12-23)
 ------------------
 
