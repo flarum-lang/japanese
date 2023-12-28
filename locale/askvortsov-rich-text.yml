@@ -5,7 +5,7 @@
 askvortsov-rich-text:
   admin:
     settings:
-      toggle_on_editor: エディタにリッチテキストモードのトグルを表示しますか？
+      toggle_on_editor: エディタにリッチテキストモードの切り替えボタンを表示しますか？
   forum:
     settings:
       composer_heading: Composer
@@ -13,7 +13,7 @@ askvortsov-rich-text:
       use_rich_text_editor_label: リッチテキストエディタを使いますか？
   lib:
     composer:
-      additional_items_tooltip: 追加コントロール
+      additional_items_tooltip: その他の項目
       bold_tooltip: '太字 <{modifierKey}-b>'
       code_block_tooltip: コードブロックの挿入
       code_tooltip: 'コード <{modifierKey}-`>'
@@ -35,10 +35,10 @@ askvortsov-rich-text:
       paragraph_tooltip: '改行 <shift-{modifierKey}-0>'
       quote_tooltip: '引用の挿入 <{modifierKey}-q>'
       spoiler_block_tooltip: 隠し要素/ドロップダウン
-      spoiler_inline_tooltip: 'トグル  <{modifierKey}-;>'
+      spoiler_inline_tooltip: 'スポイラー  <{modifierKey}-;>'
       strike_tooltip: '取り消し線 <alt-shift-5>'
       sub_tooltip: '下付き文字 <{modifierKey}-,>'
       sup_tooltip: '上付き文字 <{modifierKey}-.>'
       text_type_tooltip: 文字種類選択
-      toggle_button: リッチテキストモードのトグル
+      toggle_button: リッチテキストモードの切り替え
       unordered_list_tooltip: '箇条書きリスト <shift-{modifierKey}-8>'
