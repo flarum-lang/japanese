@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+3.8.1 (2024-01-27)
+------------------
+
+**拡張機能の翻訳を更新**:
+
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+全ての更新内容:[v3.8.0...v3.8.1](https://github.com/flarum-lang/japanese/compare/v3.8.0...v3.8.1).
+
+
 3.8.0 (2023-12-28)
 ------------------
 
