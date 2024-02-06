@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+3.8.2 (XXXX-XX-XX)
+------------------
+
+**拡張機能の翻訳を更新**:
+
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+
+
+全ての更新内容:[v3.8.1...v3.8.2](https://github.com/flarum-lang/japanese/compare/v3.8.1...v3.8.2).
+
+
 3.8.1 (2024-01-27)
 ------------------
 
