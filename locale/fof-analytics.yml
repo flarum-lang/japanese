@@ -4,9 +4,13 @@
 
 fof-analytics:
   admin:
+    matomo-widget:
+      title: Matomo
     popup:
       field:
-        googleTrackingCode: 'Tracking Code ID'
+        googleGTMCode: GTMコードID（任意）
+        googleTrackingCode: 'トラッキングコード ID'
+        optTrackingCode: トラッキングコードの最適化（任意）
         piwikAliasUrl: 'エイリアス URL'
         piwikAuthToken: '認証 Token'
         piwikHideAliasUrl: '「Outlinks」レポートで、既知のエイリアス URL へのクリックを非表示にします'
@@ -14,14 +18,14 @@ fof-analytics:
         piwikSiteId: 'Site ID'
         piwikTrackAccounts: 個々のユーザーアカウントを追跡する
         piwikTrackSubdomain: 'すべての Flarum サブドメイン訪問者を追跡する'
-        piwikUrl: 'Piwik ドメイン名またはリンク'
-        statusGoogle: 'Google Analytics を有効にする'
-        statusPiwik: 'Piwik を有効にする'
+        piwikUrl: Matomoドメイン名またはリンク
+        statusGoogle: 'Google Analytics を有効にする (UA/GA4)'
+        statusPiwik: 'Matomo を有効にする'
       placeholder:
-        piwikAuthToken: "この token を入力して、管理パネルの Piwik 統計タブを有効にします。\n設定 > 個人 > API 認証Token にあります。\n"
+        piwikAuthToken: "管理画面でMatomo統計ウィジェットを有効にするには、このトークンを入力してください。\n設定 > 個人 > API 認証Token にあります。\n"
       section:
         googleAnalytics: 'Google Analytics'
-        piwik: Piwik
+        piwik: Matomo
       trackAccounts:
         email: メールで追跡
         none: 追跡しません

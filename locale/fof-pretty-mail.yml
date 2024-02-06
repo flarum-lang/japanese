@@ -9,9 +9,16 @@ fof-pretty-mail:
       label: 'CSS 設定'
       switch_label: 'すべてのフォーラム CSS が含まれています'
     nav:
-      desc: 'カスタム HTML メールテンプレート'
+      desc: 'HTML メールテンプレートをカスタマイズする。'
     settings:
-      confirm: メールテンプレートを次のように復元しますか？
+      attributes:
+        body: メールの実際の内容を含む
+        forumStyle: '<strong>フォーラム全体のCSS</strong>を含む'
+        link: メール内のリンクを含む
+        settings: 'SettingsRepositoryInterface とのやり取りを許可'
+        url: 'Flarum''s <code>UrlGenerator</code>'
+      attributes_label: 使用可能な属性
+      confirm: メールテンプレートを次のように復元しますか
       default: デフォルトのテンプレート
       label: メールテンプレート
       newPost: 'Flarum/subscriptions 新しい投稿通知メール'
@@ -19,4 +26,5 @@ fof-pretty-mail:
       notifications: 通知テンプレート
       postMentioned: 'Flarum/mentions 投稿に言及'
       reset: デフォルトに戻す
+      template_help: 各属性の使い方については、各テンプレートを参照してください。
       userMentioned: 'Flarum/mentions 言及されたユーザー'

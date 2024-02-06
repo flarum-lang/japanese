@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-follow-tags/ja/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      tagsubscription:
+        anonymize_description: タグに対するユーザーの購読を削除する。
+        export_description: タグの購読レベルがある場合は、その詳細をエクスポートします。
 fof-follow-tags:
   admin:
     settings:
@@ -10,9 +16,9 @@ fof-follow-tags:
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
   email:
     body:
-      newDiscussionInTag: "{recipient_display_name}さん、こんにちは!\n{actor_display_name} さんが、あなたのフォローしているタグでスレッドを作成しました: {discussion_title}\n新しいスレッドを閲覧する場合は、以下のリンクをご確認ください:\n{discussion_url}\n---\n{post_content}\n"
-      newDiscussionTag: "{recipient_display_name}さん、こんにちは!\n{actor_display_name} さんが、{author_display_name} さんのスレッドのタグを、あなたがフォローしているタグに変更しました {discussion_title}\n新しいスレッドを閲覧する場合は、以下のリンクをご確認ください:\n{discussion_url}\n"
-      newPostInTag: "{recipient_display_name}さん、こんにちは!\n{actor_display_name} さんが、あなたのフォローしているタグのスレッドで投稿しました: {discussion_title}\n内容を閲覧にするには、以下のリンクを確認してください:\n{post_url}\n---\n{post_content}\n---\nあなたが内容を確認するまで、このスレッドに関する通知は今後送信されません。\n"
+      newDiscussionInTag: "{recipient_display_name}さん、こんにちは\n\n{actor_display_name} さんが、あなたのフォローしているタグでスレッドを作成しました: {discussion_title}\n\n新しいスレッドを閲覧する場合は、以下のリンクをご確認ください:\n{discussion_url}\n\n---\n\n{post_content}\n"
+      newDiscussionTag: "{recipient_display_name}さん、こんにちは!,\n\n{actor_display_name} さんが、{author_display_name} さんのスレッドのタグを、あなたがフォローしているタグに変更しました {discussion_title}\n\n新しいスレッドを閲覧する場合は、以下のリンクをご確認ください:\n{discussion_url}\n"
+      newPostInTag: "{recipient_display_name}さん、こんにちは!\n\n{actor_display_name} さんが、あなたのフォローしているタグで投稿しました: {discussion_title}\n\n内容を閲覧にするには、以下のリンクを確認してください:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nあなたが内容を確認するまで、このスレッドに関する通知は今後送信されません。\n"
     subject:
       newDiscussionInTag: '[タグ | 新しいスレッド] {title}'
       newDiscussionTag: '[タグ | タグの変更] {title}'
@@ -38,17 +44,20 @@ fof-follow-tags:
     sub_controls:
       follow_button: '=> fof-follow-tags.ref.follow'
       following_button: '=> fof-follow-tags.ref.following'
-      following_text: 新しいスレッドの作成を通知する
+      following_text: 新しいスレッドの作成を通知する。
+      header: '{tagName} を購読'
       hiding_button: '=> fof-follow-tags.ref.hiding'
-      hiding_text: スレッド一覧に表示しない
+      hiding_text: スレッド一覧に表示しない。
       ignoring_button: '=> fof-follow-tags.ref.ignoring'
-      ignoring_text: 通知を停止する
+      ignoring_text: 通知を停止する。
       lurking_button: '=> fof-follow-tags.ref.lurking'
-      lurking_text: 新しいスレッドの作成と全ての返信を通知する
+      lurking_text: すべての新規スレッドと返信を通知する。
       not_following_button: フォローしない
-      not_following_text: '@メンション された時のみ通知する'
+      not_following_text: '@メンション された時のみ通知する。'
       notify_alert_tooltip: 新しいスレッドの作成や投稿があった場合にフォーラム内で通知する
       notify_email_tooltip: 新しいスレッドの作成や投稿があった場合にメールで通知する
+      submit_button: 購読確認
+      subscription_label: '{tagName} の購読レベルを選択'
     user:
       settings:
         filter_label: フォロー中ページに標準で表示する項目
