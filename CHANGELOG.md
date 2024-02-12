@@ -2,6 +2,27 @@ CHANGELOG
 =========
 
 
+3.9.0 (2024-02-12)
+------------------
+
+**新しい拡張機能のサポートを追加**:
+
+* [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links)
+* [`flarum/bbcode`](https://github.com/flarum/bbcode)
+
+
+**拡張機能の翻訳を更新**:
+
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+
+
+全ての更新内容:[v3.8.1...v3.9.0](https://github.com/flarum-lang/japanese/compare/v3.8.1...v3.9.0).
+
+
 3.8.1 (2024-01-27)
 ------------------
 
