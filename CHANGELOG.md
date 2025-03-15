@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+3.9.1 (XXXX-XX-XX)
+------------------
+
+**更新内容**:
+
+* Flarum coreの翻訳を更新.
+
+
+**拡張機能の翻訳を更新**:
+
+* [`flarum/tags`](https://github.com/flarum/tags)
+
+
+全ての更新内容:[v3.9.0...v3.9.1](https://github.com/flarum-lang/japanese/compare/v3.9.0...v3.9.1).
+
+
 3.9.0 (2024-02-12)
 ------------------
 
