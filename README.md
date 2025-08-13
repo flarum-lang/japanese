@@ -52,6 +52,7 @@ You can contribute to the language pack on [this page](https://weblate.rob006.ne
 | [`flarum/approval`](https://github.com/flarum/approval) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-approval/ja/) |
 | [`flarum/bbcode`](https://github.com/flarum/bbcode) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/flarum-bbcode/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-bbcode/ja/) |
 | [`flarum/emoji`](https://github.com/flarum/emoji) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-emoji/ja/) |
+| [`flarum/extension-manager`](https://github.com/flarum/extension-manager) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/flarum-extension-manager/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-extension-manager/ja/) |
 | [`flarum/flags`](https://github.com/flarum/flags) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-flags/ja/) |
 | [`flarum/likes`](https://github.com/flarum/likes) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/flarum-likes/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-likes/ja/) |
 | [`flarum/lock`](https://github.com/flarum/lock) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/flarum-lock/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-lock/ja/) |
