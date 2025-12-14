@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+3.9.2 (2025-12-14)
+------------------
+
+**新しい拡張機能のサポートを追加**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+
+
+全ての更新内容:[v3.9.1...v3.9.2](https://github.com/flarum-lang/japanese/compare/v3.9.1...v3.9.2).
+
+
 3.9.1 (2025-03-16)
 ------------------
 
