@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+3.9.3 (XXXX-XX-XX)
+------------------
+
+**新しい拡張機能のサポートを追加**:
+
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+
+
+全ての更新内容:[v3.9.2...v3.9.3](https://github.com/flarum-lang/japanese/compare/v3.9.2...v3.9.3).
+
+
 3.9.2 (2025-12-14)
 ------------------
 
