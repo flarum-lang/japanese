@@ -32,6 +32,9 @@
         "flarum-locale": {
             "code": "ja",
             "title": "日本語"
+        },
+        "branch-alias": {
+            "dev-master": "3.x-dev"
         }
     }
 }
