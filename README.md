@@ -6,7 +6,7 @@ Japanese language pack to localize the Flarum.
 1. Flarumがインストールされているディレクトリで以下のコマンドを実行してください。<br>
 Run the following command in the location where Flarum is installed.
 ```
-composer require flarum-lang/japanese
+composer require "flarum-lang/japanese:*"
 ```
 
 2. 管理画面の拡張機能ページから、`` Japanese ``を有効化します。<br>
