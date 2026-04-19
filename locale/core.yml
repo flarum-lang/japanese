@@ -4,6 +4,27 @@
 
 core:
   admin:
+    advanced:
+      description: フォーラムの詳細設定を変更します。
+      maintenance:
+        bisect:
+          begin_button_text: 二分探索を開始
+          continue_button_text: 二分探索を続ける
+          help: 問題の原因となっている拡張機能を特定するのに役立ちます。このプロセスが完了するまで、フォーラムは自動的にメンテナンスモード（低）になります。
+          label: 拡張機能の二分探索
+        bisect_modal:
+          description: "このプロセスが完了するまで、フォーラムはメンテナンスモード（低）になります。各ステップでいくつかの拡張機能が無効化され、問題の原因となっている拡張機能を特定していきます。そのため、一部の機能が表示されなかったり、テーマのデザインが変わったりしても驚かないでください。このページは開いたままにしておき、各ステップの後に別のページで問題を再現できるか試してください。もしこのページを誤って閉じてしまっても、いつでも戻ってくることができます。\n"
+          end_button: 終了して拡張機能ページに戻る
+          issue_question: また問題は発生していますか？
+          issue_question_help: 別のページで問題を再現できるか試し、結果を回答してください。
+          no_button: いいえ
+          result_description: "拡張機能の二分探索が完了し、フォーラムのメンテナンスモードは解除されました。各ステップの回答によると、問題の原因と思われる拡張機能は以下のとおりです:\n"
+          start_button: 二分探索を開始
+          steps_left: '残りステップ: {steps}'
+          stop_button: 二分探索を終了
+          title: 拡張機能の二分探索
+          total_steps: 'およそ {steps} ステップを必要とします。'
+          yes_button: はい
     appearance:
       colored_header_label: 色付きのヘッダー
       colors_heading: 色
