@@ -124,7 +124,7 @@ CHANGELOG
 * [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap)
 * [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
-* [`v17development/flarum-seo`](https://github.com/FriendsOfFlarum/flarum-seo)
+* [`v17development/flarum-seo`](https://github.com/FriendsOfFlarum/seo)
 
 
 全ての更新内容:[v3.9.3...v4.0.0](https://github.com/flarum-lang/japanese/compare/v3.9.3...v4.0.0).
