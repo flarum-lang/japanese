@@ -66,6 +66,7 @@ CHANGELOG
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
 * [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
 
@@ -113,7 +114,6 @@ CHANGELOG
 * [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 * [`ianm/level-ranks`](https://github.com/imorland/level-ranks)
-* [`ianm/syndication`](https://github.com/imorland/syndication)
 * [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 * [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
