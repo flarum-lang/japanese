@@ -137,7 +137,6 @@ You can contribute to the language pack on [this page](https://weblate.rob006.ne
 | --- | --- |
 | [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/acpl-mobile-tab/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-mobile-tab/ja/) |
 | [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/antoinefr-money/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/antoinefr-money/ja/) |
-| [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/askvortsov-categories/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-categories/ja/) |
 | [`askvortsov/flarum-help-tags`](https://github.com/askvortsov1/flarum-help-tags) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/askvortsov-help-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-help-tags/ja/) |
 | [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/askvortsov-pwa/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-pwa/ja/) |
 | [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/askvortsov-rich-text/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-rich-text/ja/) |
