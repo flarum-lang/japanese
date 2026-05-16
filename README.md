@@ -29,10 +29,10 @@ composer remove flarum-lang/japanese
 ```
 
 ## :tada: 翻訳への参加方法 | Contributing
-このリポジトリは[@rob006](https://github.com/rob006)さんが運営する[Weblate](https://weblate.rob006.net/languages/ja/flarum/)と連携しました！！
-翻訳作業に参加されたい方は[このページ](https://weblate.rob006.net/languages/ja/flarum/)で編集をお願いします！<br>
-This repository was integrated with [Weblate](https://weblate.rob006.net/languages/ja/flarum/) by [rob006](https://github.com/rob006)!!
-You can contribute to the language pack on [this page](https://weblate.rob006.net/languages/ja/flarum/).
+このリポジトリは[@rob006](https://github.com/rob006)さんが運営する[Weblate](https://weblate.rob006.net/languages/ja/flarum2/)と連携しました！！
+翻訳作業に参加されたい方は[このページ](https://weblate.rob006.net/languages/ja/flarum2/)で編集をお願いします！<br>
+This repository was integrated with [Weblate](https://weblate.rob006.net/languages/ja/flarum2/) by [rob006](https://github.com/rob006)!!
+You can contribute to the language pack on [this page](https://weblate.rob006.net/languages/ja/flarum2/).
 
 ## :bar_chart: 翻訳状況(Flarum core) | Translation status for Flarum core
 
