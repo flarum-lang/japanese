@@ -124,6 +124,7 @@ You can contribute to the language pack on [this page](https://weblate.rob006.ne
 | 拡張機能 | 状況 |
 | --- | --- |
 | [`ianm/syndication`](https://github.com/imorland/syndication) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/ianm-syndication/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/ianm-syndication/ja/) |
+| [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/michaelbelgium-discussion-views/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/michaelbelgium-discussion-views/ja/) |
 | [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/migratetoflarum-fake-data/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/migratetoflarum-fake-data/ja/) |
 | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/sycho-profile-cover/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/sycho-profile-cover/ja/) |
 
