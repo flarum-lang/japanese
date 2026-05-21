@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.0.1 (XXXX-XX-XX)
+------------------
+
+**新しい拡張機能のサポートを追加**:
+
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+
+
+全ての更新内容:[v4.0.0...v4.0.1](https://github.com/flarum-lang/japanese/compare/v4.0.0...v4.0.1).
+
+
 4.0.0 (2026-04-24)
 ------------------
 
