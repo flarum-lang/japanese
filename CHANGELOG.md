@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.0.2 (XXXX-XX-XX)
+------------------
+
+**新しい拡張機能のサポートを追加**:
+
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+
+
+全ての更新内容:[v4.0.1...v4.0.2](https://github.com/flarum-lang/japanese/compare/v4.0.1...v4.0.2).
+
+
 4.0.1 (2026-05-23)
 ------------------
 
