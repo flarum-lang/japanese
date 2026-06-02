@@ -123,6 +123,7 @@ You can contribute to the language pack on [this page](https://weblate.rob006.ne
 
 | 拡張機能 | 状況 |
 | --- | --- |
+| [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/antoinefr-money/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/antoinefr-money/ja/) |
 | [`ianm/syndication`](https://github.com/imorland/syndication) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/ianm-syndication/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/ianm-syndication/ja/) |
 | [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/maicol07-sso/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/maicol07-sso/ja/) |
 | [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/michaelbelgium-discussion-views/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/michaelbelgium-discussion-views/ja/) |
