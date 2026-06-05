@@ -77,6 +77,7 @@ You can contribute to the language pack on [this page](https://weblate.rob006.ne
 | 拡張機能 | 状況 |
 | --- | --- |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-analytics/ja/) |
+| [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/fof-ban-ips/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-ban-ips/ja/) |
 | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/fof-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-best-answer/ja/) |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-byobu/ja/) |
 | [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/fof-default-group/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-default-group/ja/) |
