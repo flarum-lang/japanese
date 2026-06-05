@@ -8,6 +8,7 @@ CHANGELOG
 **新しい拡張機能のサポートを追加**:
 
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 
 
 全ての更新内容:[v4.0.2...v4.0.3](https://github.com/flarum-lang/japanese/compare/v4.0.2...v4.0.3).
