@@ -167,7 +167,6 @@ You can contribute to the language pack on [this page](https://weblate.rob006.ne
 | [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/tituspijean-auth-ldap/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/tituspijean-auth-ldap/ja/) |
 | [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/tpokorra-post-notification/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/tpokorra-post-notification/ja/) |
 | [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/ja/) |
-| [`v17development/flarum-seo`](https://github.com/FriendsOfFlarum/seo) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/v17development-seo/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-seo/ja/) |
 
 <!-- various-extensions-list-stop -->
 </details>
