@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.0.4 (2026-06-09)
+------------------
+
+**新しい拡張機能のサポートを追加**:
+
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+
+
+全ての更新内容:[v4.0.3...v4.0.4](https://github.com/flarum-lang/japanese/compare/v4.0.3...v4.0.4).
+
+
 4.0.3 (2026-06-05)
 ------------------
 
