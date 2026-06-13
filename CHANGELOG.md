@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.0.5 (2026-06-13)
+------------------
+
+**新しい拡張機能のサポートを追加**:
+
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+
+
+全ての更新内容:[v4.0.4...v4.0.5](https://github.com/flarum-lang/japanese/compare/v4.0.4...v4.0.5).
+
+
 4.0.4 (2026-06-09)
 ------------------
 
