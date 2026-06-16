@@ -80,6 +80,7 @@ You can contribute to the language pack on [this page](https://weblate.rob006.ne
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-analytics/ja/) |
 | [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/fof-ban-ips/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-ban-ips/ja/) |
 | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/fof-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-best-answer/ja/) |
+| [`fof/blog`](https://github.com/FriendsOfFlarum/blog) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/fof-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-blog/ja/) |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-byobu/ja/) |
 | [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/fof-cookie-consent/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-cookie-consent/ja/) |
 | [`fof/custom-footer`](https://github.com/FriendsOfFlarum/custom-footer) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/fof-custom-footer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-custom-footer/ja/) |
@@ -166,7 +167,6 @@ You can contribute to the language pack on [this page](https://weblate.rob006.ne
 | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/sycho-profile-cover/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/sycho-profile-cover/ja/) |
 | [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/tituspijean-auth-ldap/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/tituspijean-auth-ldap/ja/) |
 | [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/tpokorra-post-notification/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/tpokorra-post-notification/ja/) |
-| [`v17development/flarum-blog`](https://github.com/FriendsOfFlarum/blog) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum/ja/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/ja/) |
 
 <!-- various-extensions-list-stop -->
 </details>
