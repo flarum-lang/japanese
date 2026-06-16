@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+3.9.4 (2026-06-16)
+------------------
+
+**新しい拡張機能のサポートを追加**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
+全ての更新内容:[v3.9.3...v3.9.4](https://github.com/flarum-lang/japanese/compare/v3.9.3...v3.9.4).
+
+
 3.9.3 (2025-12-24)
 ------------------
 
