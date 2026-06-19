@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.0.6 (2026-06-19)
+------------------
+
+**新しい拡張機能のサポートを追加**:
+
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
+
+
+全ての更新内容:[v4.0.5...v4.0.6](https://github.com/flarum-lang/japanese/compare/v4.0.5...v4.0.6).
+
+
 4.0.5 (2026-06-13)
 ------------------
 
