@@ -76,6 +76,7 @@ You can contribute to the language pack on [this page](https://weblate.rob006.ne
 
 | 拡張機能 | 状況 |
 | --- | --- |
+| [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/fof-amazon-affiliation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-amazon-affiliation/ja/) |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-analytics/ja/) |
 | [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/fof-ban-ips/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-ban-ips/ja/) |
 | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/fof-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-best-answer/ja/) |
