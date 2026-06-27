@@ -25,6 +25,12 @@ core:
           title: 拡張機能の二分探索
           total_steps: 'およそ {steps} ステップを必要とします。'
           yes_button: はい
+        config_override:
+          help: 'ここでこれらの設定を変更することはできますが、<code>config.php</code> ファイルで <code>offline</code> を <code>0</code> に設定するまでは変更は有効になりません。'
+          label: あなたの<code>config.php</code>ファイルがこれらの設定を上書きしています。
+        help: ユーザーアクセスを防止するため、フォーラムをメンテナンスモードに切り替えてください。
+        options:
+          none: メンテナンス不要。
     appearance:
       colored_header_label: 色付きのヘッダー
       colors_heading: 色
