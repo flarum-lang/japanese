@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.0.8 (2026-07-24)
+------------------
+
+**新しい拡張機能のサポートを追加**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
+全ての更新内容:[v4.0.7...v4.0.8](https://github.com/flarum-lang/japanese/compare/v4.0.7...v4.0.8).
+
+
 4.0.7 (2026-06-28)
 ------------------
 
