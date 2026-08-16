@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.0.9 (XXXX-XX-XX)
+------------------
+
+**新しい拡張機能のサポートを追加**:
+
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+
+
+全ての更新内容:[v4.0.8...v4.0.9](https://github.com/flarum-lang/japanese/compare/v4.0.8...v4.0.9).
+
+
 4.0.8 (2026-07-24)
 ------------------
 
