@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+3.9.5 (2026-08-19)
+------------------
+
+**拡張機能の翻訳を更新**:
+
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+
+
+全ての更新内容:[v3.9.4...v3.9.5](https://github.com/flarum-lang/japanese/compare/v3.9.4...v3.9.5).
+
+
 3.9.4 (2026-06-16)
 ------------------
 
