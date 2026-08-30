@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.0.10 (2026-08-30)
+-------------------
+
+**新しい拡張機能のサポートを追加**:
+
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+
+
+全ての更新内容:[v4.0.9...v4.0.10](https://github.com/flarum-lang/japanese/compare/v4.0.9...v4.0.10).
+
+
 4.0.9 (2026-08-19)
 ------------------
 
