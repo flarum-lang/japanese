@@ -11,5 +11,5 @@ tituspijean-auth-ldap:
       use_ssl: 'SSL を使用'
       use_tls: 'TLS を使用'
   forum:
-    log_in_with: 'Login with'
+    log_in_with: '{server} でログイン'
     log_out: '=> core.ref.log_out'

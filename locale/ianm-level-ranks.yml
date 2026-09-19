@@ -8,7 +8,7 @@ ianm-level-ranks:
       levelText: 'レベルの表示を設定してください(例 レベル、ランク)'
   forum:
     desc:
-      expText: EXP
+      expText: '{expTotal} EXP'
   lib:
     defaults:
       level: レベル

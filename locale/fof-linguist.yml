@@ -14,7 +14,7 @@ fof-linguist:
       text: "新しい翻訳はまだ適用されていません。 Note: キャッシュをクリアすると、フォーラムが一時的に遅くなる可能性があります。\n"
     filters:
       for-extension: プラグインを指定する
-      results: '{shown} のうち{shown}個の一致する翻訳を表示しています'
+      results: '{total} のうち{shown}個の一致する翻訳を表示しています'
       search: 検索する...
       with-own-translations: カスタム翻訳
     locales:

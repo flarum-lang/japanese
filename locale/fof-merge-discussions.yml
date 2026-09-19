@@ -23,6 +23,6 @@ fof-merge-discussions:
       type_target_help_text: '「<b>{title}</b>」にマージするトピックを選択してください。'
       type_target_label: このトピックに統合
     post:
-      merged: 'トピック「{titles}」の下の <b>{count}</b> 応答がマージされました。|トピック「{titles}」の下の <b>{count}</b> 応答がマージされました。'
+      merged: 'トピック「{titles}」の下の <b>{count}</b> 応答がマージされました。'
   ref:
     merge: マージ
