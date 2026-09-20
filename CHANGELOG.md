@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+4.0.11 (2026-09-20)
+-------------------
+
+**拡張機能の翻訳を更新**:
+
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+
+
+全ての更新内容:[v4.0.10...v4.0.11](https://github.com/flarum-lang/japanese/compare/v4.0.10...v4.0.11).
+
+
 4.0.10 (2026-08-30)
 -------------------
 
