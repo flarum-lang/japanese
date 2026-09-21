@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+3.9.7 (2026-09-21)
+------------------
+
+**Updated translations for extensions**:
+
+* [`fof/html-errors`](https://github.com/FriendsOfFlarum/html-errors) (1 changed)
+
+
+All changes: [v3.9.6...3.9.7](https://github.com/flarum-lang/japanese/compare/v3.9.6...3.9.7).
+
+
 3.9.6 (2026-09-20)
 ------------------
 
