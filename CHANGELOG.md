@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+4.0.12 (2026-10-24)
+-------------------
+
+**Added support for new extensions**:
+
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (28% complete)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (63% complete)
+
+
+All changes: [v4.0.11...4.0.12](https://github.com/flarum-lang/japanese/compare/v4.0.11...4.0.12).
+
+
 4.0.11 (2026-09-20)
 -------------------
 
