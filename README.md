@@ -138,6 +138,7 @@ You can contribute to the language pack on [this page](https://weblate.rob006.ne
 | [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/michaelbelgium-discussion-views/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/michaelbelgium-discussion-views/ja/) |
 | [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/migratetoflarum-fake-data/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/migratetoflarum-fake-data/ja/) |
 | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/sycho-profile-cover/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/sycho-profile-cover/ja/) |
+| [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/tpokorra-post-notification/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/tpokorra-post-notification/ja/) |
 
 <!-- various-extensions-list-stop -->
 </details>
