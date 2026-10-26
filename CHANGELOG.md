@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.0.13 (2026-10-26)
+-------------------
+
+**Added support for new extensions**:
+
+* [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) (100% complete)
+
+
+All changes: [4.0.12...4.0.13](https://github.com/flarum-lang/japanese/compare/4.0.12...4.0.13).
+
+
 4.0.12 (2026-10-24)
 -------------------
 
