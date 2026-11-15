@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+3.9.8 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+All changes: [3.9.7...3.9.8](https://github.com/flarum-lang/japanese/compare/3.9.7...3.9.8).
+
+
 3.9.7 (2026-09-21)
 ------------------
 
