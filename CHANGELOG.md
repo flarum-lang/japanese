@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.0.14 (2026-11-15)
+-------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+All changes: [4.0.13...4.0.14](https://github.com/flarum-lang/japanese/compare/4.0.13...4.0.14).
+
+
 4.0.13 (2026-10-26)
 -------------------
 
