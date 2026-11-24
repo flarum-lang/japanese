@@ -132,6 +132,7 @@ You can contribute to the language pack on [this page](https://weblate.rob006.ne
 | 拡張機能 | 状況 |
 | --- | --- |
 | [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/antoinefr-money/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/antoinefr-money/ja/) |
+| [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/clarkwinkelmann-who-read/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/clarkwinkelmann-who-read/ja/) |
 | [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/glowingblue-password-strength/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/glowingblue-password-strength/ja/) |
 | [`ianm/syndication`](https://github.com/imorland/syndication) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/ianm-syndication/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/ianm-syndication/ja/) |
 | [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso) | [![翻訳状況](https://weblate.rob006.net/widgets/flarum2/ja/maicol07-sso/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/maicol07-sso/ja/) |
