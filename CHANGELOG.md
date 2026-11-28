@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.0.15 (2026-11-28)
+-------------------
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) (96% complete)
+
+
+All changes: [4.0.14...4.0.15](https://github.com/flarum-lang/japanese/compare/4.0.14...4.0.15).
+
+
 4.0.14 (2026-11-15)
 -------------------
 
